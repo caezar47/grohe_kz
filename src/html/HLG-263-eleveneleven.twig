@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+    <head>
+        {% include "../block/common/head/head.twig" with {
+            title:"HLG-263 :: 11x11",
+            style:[
+                {name: css.eleveneleven}
+            ],
+        }  %}
+    </head>
+    <body class="cms-page-view">
+        <main id="maincontent" class="page-main">
+            <div class="columns">
+                <div class="column main">
+                    <div id="promo">
+                        <section class="main-banner" style="background-image: url('{{ path.img }}{{ img.eleveneleven }}/main-banner.jpg')">
+                            <h1 class="main-banner__title">
+                                <span>11.11</span>
+                                всемирный день торговли
+                            </h1>
+                            <p class="main-banner__subtitle">Воспользуйтесь скидкой&nbsp;11% на&nbsp;все товары по&nbsp;промокоду</p>
+                            <button class="main-banner__promocode  js-promocode" data-message="Промокод успешно скопирован">
+                                1111
+                            </button>
+                        </section>
+                        <div class="steps">
+                            <ol>
+                                <li>Добавьте интересующий вас товар в&nbsp;корзину.</li>
+                                <li>Откройте корзину, начните оформление заказа.</li>
+                                <li>В&nbsp;блоке «Способы оплаты» выберите применение кода скидки и&nbsp;активируйте промо-код «1111»!</li>
+                            </ol>
+                            <ul class="steps__items">
+                                <li>
+                                    <img src="{{ path.img }}{{ img.eleveneleven }}/step-item1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="{{ path.img }}{{ img.eleveneleven }}/step-item2.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="{{ path.img }}{{ img.eleveneleven }}/step-item3.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="actions-rules">
+                            <h3 class="actions-rules__title">Условия действия акции</h3>
+                            <ol>
+                                <li>Территория проведения акции: Казахстан. </li>
+                                <li>День проведения акции: 11.11.2022&nbsp;г. </li>
+                                <li>Скидка по&nbsp;акции не&nbsp;суммируется со&nbsp;скидками по&nbsp;другим акциям, проводимым на&nbsp;сайте, и&nbsp;специальными ценами. </li>
+                                <li>Акция не&nbsp;распространяется на&nbsp;товары под заказ. </li>
+                                <li>Скидка по&nbsp;акции применяется к&nbsp;онлайн-заказам, сделанным на&nbsp;сайте shop.grohe.kz </li>
+                                <li>Акция автоматически отменяет другие подарки и&nbsp;скидки, действующие на&nbsp;сайте shop.grohe.kz на&nbsp;момент совершения заказа. </li>
+                                <li>Акция не&nbsp;распространяется на&nbsp;категорию покупателей с&nbsp;особыми условиями обслуживания (сотрудников, партнеров, дилеров, корпоративных покупателей), а&nbsp;также юридических лиц. </li>
+                                <li>Акция проводится только на&nbsp;розничных покупателей. Покупка по&nbsp;данной акции в&nbsp;коммерческих целях для дальнейшей перепродажи не&nbsp;допускается. </li>
+                                <li>Количество акционных товаров ограничено. </li>
+                                <li> Правила проведения акции могут быть изменены по&nbsp;решению Организатора. В&nbsp;случае внесения изменений, Организатор должен сообщить о&nbsp;них, опубликовав обновленные условия на&nbsp;сайте shop.grohe.kz</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        {% include "../block/common/script/script.twig" with {
+            promocode_copy: 'true',
+        } %}
+    </body>
+</html>

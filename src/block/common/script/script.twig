@@ -1,0 +1,25 @@
+<script src="https://shop.grohe.kz/static/frontend/Arpo/grohe/ru_RU/jquery.js"></script>
+{% if promocode_copy == 'true' %}
+<script>
+    ;(function($, document, window, undefined) {
+        $(document).on('ready', function() {
+            var promocode = document.querySelector('.js-promocode');
+            if(promocode) {
+                promocode.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var range = document.createRange();
+                    range.selectNode(promocode);
+                    window.getSelection().removeAllRanges();
+                    window.getSelection().addRange(range);
+                    document.execCommand('copy');
+                    window.getSelection().removeAllRanges();
+                    promocode.classList.add("message");
+                    setTimeout(function () {
+                        promocode.classList.remove("message");
+                    }, 3000);
+                });
+            }
+        })
+    })(jQuery, document, window, undefined);
+</script>
+{% endif %}
