@@ -23,3 +23,39 @@
     })(jQuery, document, window, undefined);
 </script>
 {% endif %}
+{% if tabs == 'true' %}
+<script>
+    ;(function(window, document, undefined) {
+        document.addEventListener('DOMContentLoaded', function() {
+            var tabBlocks = document.querySelectorAll('.tabs');
+
+            if(tabBlocks.length) {
+                tabBlocks.forEach(function(block) {
+                    var tabItems = block.querySelectorAll('.tabs__item');
+                    var tabsInners = block.querySelectorAll('.tabs__inner');
+
+                    tabItems.forEach(function(tab) {
+                        tab.addEventListener('click', function() {
+                            var isActive = tab.classList.contains('active');
+                            if(!isActive) {
+                                tabItems.forEach(function(item) {
+                                    item.classList.remove('active');
+                                });
+
+                                tabsInners.forEach(function(inner) {
+                                    inner.classList.remove('active');
+                                });
+
+                                var target = tab.dataset.tab;
+                                var targetInner = block.querySelector(target);
+                                tab.classList.add('active');
+                                targetInner.classList.add('active');
+                            }
+                        })
+                    })
+                });
+            }
+        });
+    })(window, document, undefined);
+</script>
+{% endif %}

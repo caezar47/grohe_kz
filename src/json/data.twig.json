@@ -9,13 +9,16 @@
 		"link":"https://shop.grohe.kz/"
 	},
 	"page":{
-		"eleveneleven":"./HLG-263-eleveneleven.html"
+		"eleveneleven":"./HLG-263-eleveneleven.html",
+		"quickfix":"./HLG-279-quickfix.html"
 	},
 	"css":{
-		"eleveneleven":"HLG-263-eleveneleven.css"
+		"eleveneleven":"HLG-263-eleveneleven.css",
+		"quickfix":"./HLG-279-quickfix.css"
 	},
 	"img":{
-		"eleveneleven":"/promo/2022/HLG-263"
+		"eleveneleven":"/promo/2022/HLG-263",
+		"quickfix":"/promo/2022/HLG-279"
 	},
 	"path":{		                  
 		"css":"./css",

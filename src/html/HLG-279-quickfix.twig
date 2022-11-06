@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+    <head>
+        {% include "../block/common/head/head.twig" with {
+            title:"HLG-279 :: quickfix",
+            style:[
+                {name: css.quickfix}
+            ],
+        }  %}
+    </head>
+    <body class="cms-page-view">
+        <main id="maincontent" class="page-main">
+            <div class="columns">
+                <div class="column main">
+                    <div id="promo">
+                        <section class="main-banner">
+                            <picture>
+                                <source type="image/jpeg" srcset="{{ path.img }}{{ img.quickfix }}/main-banner-320.jpg" media="(max-width: 767px)">
+                                <source type="image/jpeg" srcset="{{ path.img }}{{ img.quickfix }}/main-banner-768.jpg" media="(max-width: 1023px)">
+                                <img src="{{ path.img }}{{ img.quickfix }}/main-banner.jpg" alt="QUICKFIX">
+                            </picture>
+                            <div class="main-banner__desc">
+                                <h1 class="main-banner__title">
+                                    Сделать что-то впервые?<br/>
+                                    С&nbsp;установкой справится каждый!
+                                </h1>
+                                <ul class="main-banner__list">
+                                    <li>Инструмент QuickTool в&nbsp;комплекте</li>
+                                    <li> Простые и&nbsp;понятные инструкции</li>
+                                    <li> Пошаговые видео по&nbsp;монтажу</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="main-content">
+                            <div class="container">
+                                <h2 class="main-content__title">
+                                    Что такое QUICKFIX?
+                                </h2>
+                            </div>
+                            <div class="main-content__wrap">
+                                <div class="container">
+                                    <div class="main-content__text">
+                                        <p>GROHE QickFix&nbsp;— это простой способ модернизировать ваш дом, ведь все необходимое для установки поставляется в&nbsp;одной упаковке с&nbsp;продуктом.</p>
+                                        <p>Преображение интерьера теперь стало простым и&nbsp;доступным. Это может сделать каждый!</p>
+                                        <p><strong>Вы&nbsp;готовы попробовать? Давайте&nbsp;же скорее преобразим дом вместе с&nbsp;GROHE QuickFix!</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="features">
+                            <div class="container">
+                                <h2 class="features__title">
+                                    Невероятно просто
+                                </h2>
+                                <p class="features__subtitle">
+                                    Все в&nbsp;одной упаковке!
+                                </p>
+                                <dl class="features__list">
+                                    <div class="features__card">
+                                        <picture>
+                                            <img src="{{ path.img }}{{ img.quickfix }}/features-item1.png" alt="">
+                                        </picture>
+                                        <div>
+                                            <dt>QuickTools</dt>
+                                            <dd>Один инструмент&nbsp;— три функции, легкая установка и&nbsp;обслуживание</dd>
+                                        </div>
+                                    </div>
+                                    <div class="features__card">
+                                        <picture>
+                                            <img src="{{ path.img }}{{ img.quickfix }}/features-item2.png" alt="">
+                                        </picture>
+                                        <div>
+                                            <dt>QuickGuides</dt>
+                                            <dd>Терпеть не&nbsp;можете длинные инструкции и&nbsp;руководства? Наши инструкции QuickGuides помогут справиться с&nbsp;задачей максимально легко.</dd>
+                                        </div>
+                                    </div>
+                                    <div class="features__card">
+                                        <picture>
+                                            <img src="{{ path.img }}{{ img.quickfix }}/features-item3.png" alt="">
+                                        </picture>
+                                        <div>
+                                            <dt>QuickVideos</dt>
+                                            <dd>Если предпочитаете смотреть видеоинстркуции, отсканируйте QR-код и&nbsp;выполняйте установку, ориентируясь на&nbsp;демонстрацию от&nbsp;команды QuickFix</dd>
+                                        </div>
+                                    </div>
+                                </dl>
+                            </div>
+
+                        </section>
+                        <section class="main-products">
+                            <div class="container">
+                                <h2 class="main-products__title">
+                                    Найдите необходимые товары QuickFix
+                                </h2>
+                                <div class="tabs">
+                                    <ul class="tabs__list">
+                                        <li class="tabs__item active" data-tab="#tab-item1">
+                                            Душ и Душевые системы
+                                        </li>
+                                        <li class="tabs__item" data-tab="#tab-item2">
+                                            Ванная
+                                        </li>
+                                        <li class="tabs__item" data-tab="#tab-item3">
+                                            Кухня
+                                        </li>
+                                        <li class="tabs__item" data-tab="#tab-item4">
+                                            Туалет
+                                        </li>
+                                    </ul>
+                                    <div class="tabs__inner active" id="tab-item1">
+{{ ' {{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="10" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`1350`^]^]"}}' }}
+                                    </div>
+                                    <div class="tabs__inner" id="tab-item2">
+                                        {{ ' {{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="10" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`1350`^]^]"}}' }}
+                                    </div>
+                                    <div class="tabs__inner" id="tab-item3">
+                                        {{ ' {{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="10" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`1350`^]^]"}}' }}
+                                    </div>
+                                    <div class="tabs__inner" id="tab-item4">
+                                        {{ ' {{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="10" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`1350`^]^]"}}' }}
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        {% include "../block/common/script/script.twig" with {
+            tabs: 'true',
+        } %}
+    </body>
+</html>
