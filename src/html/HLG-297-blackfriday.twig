@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU">
+<head>
+  {% include "../block/common/head/head.twig" with {
+    title:"HLG-297 :: blackfriday",
+    style:[
+      {name: css.blackfriday}
+    ],
+  }  %}
+</head>
+<body class="cms-page-view">
+<main id="maincontent" class="page-main">
+  <div class="columns">
+    <div class="column main">
+
+      <div id="blackfriday">
+        <div class="container">
+          <div class="main-banner">
+            <picture>
+              <source type="image/jpeg" srcset="{{ path.img }}{{ img.blackfriday }}/main-banner-320.jpg" media="(max-width: 767px)">
+              <source type="image/jpeg" srcset="{{ path.img }}{{ img.blackfriday }}/main-banner-768.jpg" media="(max-width: 1023px)">
+              <img src="{{ path.img }}{{ img.blackfriday }}/main-banner.jpg" alt="Черная пятница 2022">
+            </picture>
+          </div>
+          <section id="timer">
+            <h2 class="timer__title">Мы начнем с 21 ноября!</h2>
+            <p class="timer__text">До старта распродажи Черная Пятница 2022 осталось:</p>
+            <div class="timer  js-сountdown-timer" data-сountdown-timer id="clock" data-сountdown-timer-finish="2022-11-21T00:00:00">
+              <div id="days" class="days"><span class="timer-number">0</span> <span class="timer-number">0</span></div>
+              <span class="dots">:</span>
+              <div id="hours" class="hours"><span class="timer-number">0</span> <span class="timer-number">0</span></div>
+              <span class="dots">:</span>
+              <div id="minutes" class="minutes"><span class="timer-number">0</span> <span class="timer-number">0</span></div>
+              <span class="dots">:</span>
+              <div id="seconds" class="seconds"><span class="timer-number">0</span> <span class="timer-number">0</span></div>
+            </div>
+          </section>
+          <section id="social">
+            <h3 class="social__text">Расскажите друзьям о наших скидках:</h3>
+            <div class="social__container">
+              <div class="ya-share2 social-links" data-services="odnoklassniki,vkontakte"></div>
+            </div>
+          </section>
+          <div class="tabs">
+            <ul class="tabs__list">
+              <li class="tabs__item active" data-tab="#tab-item1">
+                Душ и Душевые системы
+              </li>
+              <li class="tabs__item" data-tab="#tab-item2">
+                Ванная
+              </li>
+              <li class="tabs__item" data-tab="#tab-item3">
+                Кухня
+              </li>
+              <li class="tabs__item" data-tab="#tab-item4">
+                Туалет
+              </li>
+            </ul>
+            <div class="tabs__inner active" id="tab-item1">
+              {{ ' {{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="10" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`1369`^],`1--2`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`is_in_stock`,`operator`:`==`,`value`:`1`^]^]""}}' }}
+            </div>
+            <div class="tabs__inner" id="tab-item2">
+              {{ ' {{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="10" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`1366`^]^]"}}' }}
+            </div>
+            <div class="tabs__inner" id="tab-item3">
+              {{ ' {{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="10" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`1367`^]^]"}}' }}
+            </div>
+            <div class="tabs__inner" id="tab-item4">
+              {{ ' {{widget type="Magento\CatalogWidget\Block\Product\ProductsList" show_pager="0" products_count="10" template="Magento_CatalogWidget::product/widget/content/grid.phtml" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`category_ids`,`operator`:`==`,`value`:`1368`^]^]"}}' }}
+            </div>
+          </div>
+          <div class="actions-rules">
+            <button type="button" class="actions-rules__btn js-toggle-btn">Условия акции</button>
+            <div class="actions-rules__content  js-toggle-content">
+              <ol>
+                <li>Территория проведения акции: Казахстан. </li>
+                <li>День проведения акции: 11.11.2022&nbsp;г. </li>
+                <li>Скидка по&nbsp;акции не&nbsp;суммируется со&nbsp;скидками по&nbsp;другим акциям, проводимым на&nbsp;сайте, и&nbsp;специальными ценами. </li>
+                <li>Акция не&nbsp;распространяется на&nbsp;товары под заказ. </li>
+                <li>Скидка по&nbsp;акции применяется к&nbsp;онлайн-заказам, сделанным на&nbsp;сайте shop.grohe.kz </li>
+                <li>Акция автоматически отменяет другие подарки и&nbsp;скидки, действующие на&nbsp;сайте shop.grohe.kz на&nbsp;момент совершения заказа. </li>
+                <li>Акция не&nbsp;распространяется на&nbsp;категорию покупателей с&nbsp;особыми условиями обслуживания (сотрудников, партнеров, дилеров, корпоративных покупателей), а&nbsp;также юридических лиц. </li>
+                <li>Акция проводится только на&nbsp;розничных покупателей. Покупка по&nbsp;данной акции в&nbsp;коммерческих целях для дальнейшей перепродажи не&nbsp;допускается. </li>
+                <li>Количество акционных товаров ограничено. </li>
+                <li> Правила проведения акции могут быть изменены по&nbsp;решению Организатора. В&nbsp;случае внесения изменений, Организатор должен сообщить о&nbsp;них, опубликовав обновленные условия на&nbsp;сайте shop.grohe.kz</li>
+              </ol>
+            </div>
+
+
+          </div>
+          <div class="main-banner">
+            <picture>
+              <img src="{{ path.img }}{{ img.blackfriday }}/banner-footer.jpg" alt="Черная пятница 2022">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include "../block/common/script/script.twig" with {
+  countdown: 'true',
+  tabs: 'true',
+  soc: 'true',
+  toggle: 'true',
+} %}
+</body>
+</html>

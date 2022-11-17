@@ -32,6 +32,8 @@
 <link rel="stylesheet" type="text/css" media="all" href="https://shop.grohe.kz/media/porto/configed_css/settings_default.css">
 <link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="https://shop.grohe.kz/static/frontend/Arpo/grohe/ru_RU/jquery.js"></script>
+
 
     
         <link href="./css/HLG-263-eleveneleven.css" rel="stylesheet">
@@ -93,28 +95,31 @@
 
         <script src="https://shop.grohe.kz/static/frontend/Arpo/grohe/ru_RU/jquery.js"></script>
 
-<script>
-    ;(function($, document, window, undefined) {
-        $(document).on('ready', function() {
-            var promocode = document.querySelector('.js-promocode');
-            if(promocode) {
-                promocode.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    var range = document.createRange();
-                    range.selectNode(promocode);
-                    window.getSelection().removeAllRanges();
-                    window.getSelection().addRange(range);
-                    document.execCommand('copy');
-                    window.getSelection().removeAllRanges();
-                    promocode.classList.add("message");
-                    setTimeout(function () {
-                        promocode.classList.remove("message");
-                    }, 3000);
-                });
-            }
-        })
-    })(jQuery, document, window, undefined);
-</script>
+  <script>
+      ;(function($, document, window, undefined) {
+          $(document).on('ready', function() {
+              var promocode = document.querySelector('.js-promocode');
+              if(promocode) {
+                  promocode.addEventListener('click', function(e) {
+                      e.preventDefault();
+                      var range = document.createRange();
+                      range.selectNode(promocode);
+                      window.getSelection().removeAllRanges();
+                      window.getSelection().addRange(range);
+                      document.execCommand('copy');
+                      window.getSelection().removeAllRanges();
+                      promocode.classList.add("message");
+                      setTimeout(function () {
+                          promocode.classList.remove("message");
+                      }, 3000);
+                  });
+              }
+          })
+      })(jQuery, document, window, undefined);
+  </script>
+
+
+
 
 
     </body>

@@ -32,9 +32,11 @@
 <link rel="stylesheet" type="text/css" media="all" href="https://shop.grohe.kz/media/porto/configed_css/settings_default.css">
 <link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="https://shop.grohe.kz/static/frontend/Arpo/grohe/ru_RU/jquery.js"></script>
+
 
     
-        <link href="./css/./HLG-279-quickfix.css" rel="stylesheet">
+        <link href="./css/HLG-279-quickfix.css" rel="stylesheet">
     
 
     </head>
@@ -161,40 +163,43 @@
         <script src="https://shop.grohe.kz/static/frontend/Arpo/grohe/ru_RU/jquery.js"></script>
 
 
-<script>
-    ;(function(window, document, undefined) {
-        document.addEventListener('DOMContentLoaded', function() {
-            var tabBlocks = document.querySelectorAll('.tabs');
+  <script>
+      ;(function(window, document, undefined) {
+          document.addEventListener('DOMContentLoaded', function() {
+              var tabBlocks = document.querySelectorAll('.tabs');
 
-            if(tabBlocks.length) {
-                tabBlocks.forEach(function(block) {
-                    var tabItems = block.querySelectorAll('.tabs__item');
-                    var tabsInners = block.querySelectorAll('.tabs__inner');
+              if(tabBlocks.length) {
+                  tabBlocks.forEach(function(block) {
+                      var tabItems = block.querySelectorAll('.tabs__item');
+                      var tabsInners = block.querySelectorAll('.tabs__inner');
 
-                    tabItems.forEach(function(tab) {
-                        tab.addEventListener('click', function() {
-                            var isActive = tab.classList.contains('active');
-                            if(!isActive) {
-                                tabItems.forEach(function(item) {
-                                    item.classList.remove('active');
-                                });
+                      tabItems.forEach(function(tab) {
+                          tab.addEventListener('click', function() {
+                              var isActive = tab.classList.contains('active');
+                              if(!isActive) {
+                                  tabItems.forEach(function(item) {
+                                      item.classList.remove('active');
+                                  });
 
-                                tabsInners.forEach(function(inner) {
-                                    inner.classList.remove('active');
-                                });
+                                  tabsInners.forEach(function(inner) {
+                                      inner.classList.remove('active');
+                                  });
 
-                                var target = tab.dataset.tab;
-                                var targetInner = block.querySelector(target);
-                                tab.classList.add('active');
-                                targetInner.classList.add('active');
-                            }
-                        })
-                    })
-                });
-            }
-        });
-    })(window, document, undefined);
-</script>
+                                  var target = tab.dataset.tab;
+                                  var targetInner = block.querySelector(target);
+                                  tab.classList.add('active');
+                                  targetInner.classList.add('active');
+                              }
+                          })
+                      })
+                  });
+              }
+          });
+      })(window, document, undefined);
+  </script>
+
+
+
 
     </body>
 </html>

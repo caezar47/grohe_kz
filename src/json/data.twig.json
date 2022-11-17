@@ -10,15 +10,18 @@
 	},
 	"page":{
 		"eleveneleven":"./HLG-263-eleveneleven.html",
-		"quickfix":"./HLG-279-quickfix.html"
+		"quickfix":"./HLG-279-quickfix.html",
+		"blackfriday":"./HLG-297-blackfriday.html"
 	},
 	"css":{
 		"eleveneleven":"HLG-263-eleveneleven.css",
-		"quickfix":"./HLG-279-quickfix.css"
+		"quickfix":"HLG-279-quickfix.css",
+		"blackfriday":"HLG-297-blackfriday.css"
 	},
 	"img":{
 		"eleveneleven":"/promo/2022/HLG-263",
-		"quickfix":"/promo/2022/HLG-279"
+		"quickfix":"/promo/2022/HLG-279",
+		"blackfriday":"/promo/2022/HLG-297"
 	},
 	"path":{		                  
 		"css":"./css",
