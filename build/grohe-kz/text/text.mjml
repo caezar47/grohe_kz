@@ -1,0 +1,137 @@
+<mj-section mj-class="pad--0-15">
+    <mj-column mj-class="mw-510  pad--0" css-class="dib  mw-510">
+        <mj-text mj-class="text-16-24  fw--700  ttu  align--center" padding-bottom="20px">
+            font-weight
+        </mj-text>
+        <mj-text mj-class="text-14-18  align--center  fw--400"  padding-bottom="20px">
+            fw--400
+        </mj-text>
+        <mj-text mj-class="text-14-18  align--center  fw--700"  padding-bottom="20px">
+            fw--700
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section mj-class="pad--0-15">
+    <mj-column mj-class="mw-510  pad--0" css-class="dib  mw-510">
+        <mj-text mj-class="text-16-24  fw--700  ttu  align--center" padding-bottom="20px">
+            align
+        </mj-text>
+        <mj-text mj-class="text-14-18  align--left"  padding-bottom="20px">
+            align--left
+        </mj-text>
+        <mj-text mj-class="text-14-18  align--center"  padding-bottom="20px">
+            align--center
+        </mj-text>
+        <mj-text mj-class="text-14-18  align--right"  padding-bottom="20px">
+            align--right
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section mj-class="pad--0-15" padding-bottom="20px">
+    <mj-column mj-class="mw-510  pad--0" css-class="dib  mw-510">
+        <mj-text mj-class="text-16-24  fw--700  ttu  align--center" padding-bottom="20px">
+            main__divider
+        </mj-text>
+        <mj-section mj-class="pad--0" >
+            <mj-column mj-class="main__divider" css-class="dib  main__divider"></mj-column>
+        </mj-section>
+    </mj-column>
+</mj-section>
+<mj-section mj-class="pad--0-15">
+    <mj-column mj-class="mw-510  pad--0" css-class="dib  mw-510">
+        <mj-text mj-class="text-16-24  fw--700  ttu  align--center" padding-bottom="20px">
+            text-transform
+        </mj-text>
+        <mj-text mj-class="text-14-18  align--center  ttu"  padding-bottom="20px">
+            ttu
+        </mj-text>
+        <mj-text mj-class="text-14-18  align--center  ttn"  padding-bottom="20px">
+            ttn
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section mj-class="pad--0-15">
+    <mj-column mj-class="mw-510  pad--0" css-class="dib  mw-510">
+        <mj-text mj-class="text-16-24  fw--700  ttu  align--center" padding-bottom="20px">
+            font-size / line-height
+        </mj-text>
+        <mj-text mj-class="text-12-14  align--center"  padding-bottom="20px">
+            text-12-14
+        </mj-text>
+        <mj-text mj-class="text-14-16  align--center"  padding-bottom="20px">
+            text-14-16
+        </mj-text>
+        <mj-text mj-class="text-14-18  align--center"  padding-bottom="20px">
+            text-14-18
+        </mj-text>
+        <mj-text mj-class="text-14-20  align--center"  padding-bottom="20px">
+            text-14-20
+        </mj-text>
+        <mj-text mj-class="text-15-20  align--center"  padding-bottom="20px">
+            text-15-20
+        </mj-text>
+        <mj-text mj-class="text-15-23  align--center"  padding-bottom="20px">
+            text-15-23
+        </mj-text>
+        <mj-text mj-class="text-16-20  align--center"  padding-bottom="20px">
+            text-16-20
+        </mj-text>
+        <mj-text mj-class="text-16-22  align--center"  padding-bottom="20px">
+            text-16-22
+        </mj-text>
+        <mj-text mj-class="text-16-24  align--center"  padding-bottom="20px">
+            text-16-24
+        </mj-text>
+        <mj-text mj-class="text-18-23  align--center"  padding-bottom="20px">
+            text-18-23
+        </mj-text>
+        <mj-text mj-class="text-18-26  align--center"  padding-bottom="20px">
+            text-18-26
+        </mj-text>
+        <mj-text mj-class="text-19-30  align--center"  padding-bottom="20px">
+            text-19-30
+        </mj-text>
+        <mj-text mj-class="text-20-22  align--center"  padding-bottom="20px">
+            text-20-22
+        </mj-text>
+        <mj-text mj-class="text-20-24  align--center"  padding-bottom="20px">
+            text-20-24
+        </mj-text>
+        <mj-text mj-class="text-20-28  align--center"  padding-bottom="20px">
+            text-20-28
+        </mj-text>
+        <mj-text mj-class="text-20-30  align--center"  padding-bottom="20px">
+            text-20-30
+        </mj-text>
+        <mj-text mj-class="text-22-25  align--center"  padding-bottom="20px">
+            text-22-25
+        </mj-text>
+        <mj-text mj-class="text-22-28  align--center"  padding-bottom="20px">
+            text-22-28
+        </mj-text>
+        <mj-text mj-class="text-22-32  align--center"  padding-bottom="20px">
+            text-22-32
+        </mj-text>
+        <mj-text mj-class="text-24-26  align--center"  padding-bottom="20px">
+            text-24-26
+        </mj-text>
+        <mj-text mj-class="text-24-28  align--center"  padding-bottom="20px">
+            text-24-28
+        </mj-text>
+        <mj-text mj-class="text-24-29  align--center"  padding-bottom="20px">
+            text-24-29
+        </mj-text>
+        <mj-text mj-class="text-24-33  align--center"  padding-bottom="20px">
+            text-24-33
+        </mj-text>
+        <mj-text mj-class="text-30-34  align--center"  padding-bottom="20px">
+            text-30-34
+        </mj-text>
+        <mj-text mj-class="text-30-36  align--center"  padding-bottom="20px">
+            text-30-36
+        </mj-text>
+        <mj-text mj-class="text-75-75  align--center"  padding-bottom="20px">
+            text-75-75
+        </mj-text>
+    </mj-column>
+</mj-section>

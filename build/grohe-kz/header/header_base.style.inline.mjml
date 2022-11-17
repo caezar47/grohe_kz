@@ -1,0 +1,14 @@
+<mj-style inline="inline">
+    .header__view-text{
+        color:#fff;
+        text-decoration: underline;
+    }
+    .header__link{
+        color: #fff;
+    }
+    .header__contacts-text{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+    }
+</mj-style>

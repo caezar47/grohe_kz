@@ -1,0 +1,8 @@
+<mj-section mj-class="pad--0" >
+    <mj-column mj-class="pad--0  mw-170" css-class="dib  mw-170">
+        <mj-button mj-class="btn"
+                   href="#">
+            Подробнее
+        </mj-button>
+    </mj-column>
+</mj-section>

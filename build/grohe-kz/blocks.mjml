@@ -1,0 +1,221 @@
+<!-- Основной баннер -->
+<mj-section mj-class="main__banner">
+    <mj-column mj-class="pad--0">
+        <mj-image mj-class="img--full"
+                  src="https://cdn.aristos.pw/email_mjml/theme/main-banner.jpg"
+                  href="#"
+        />
+    </mj-column>
+</mj-section>
+<!-- end's Основной баннер -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Приветствие -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Приветствие
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/hello/hello.mjml" />
+<!-- end's Приветствие -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Кнопка -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Кнопка
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/button/button.mjml" />
+<!-- end's Кнопка -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Бонусы -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Бонусы
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/bonus/bonus.mjml" />
+<!-- end's Бонусы -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Карточка товара -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Карточка товара
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/product/product.mjml" />
+<!-- end's Карточка товара -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Карточка товара: grid 2 columns -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Карточка товара: grid 2 columns
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/product/product-grid2.mjml" />
+<!-- end's Карточка товара: grid 2 columns -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Карточка товара: grid 3 columns -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Карточка товара: grid 3 columns
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/product/product-grid3.mjml" />
+<!-- end's Карточка товара: grid 2 columns -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Карточка товара: Баннер + карточки -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Карточка товара: Баннер + карточки
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/product/product-group.mjml" />
+<!-- end's Карточка товара: Баннер + карточки -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Карточка товара: подарок -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Карточка товара: подарок
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/product/product-gift.mjml" />
+<!-- end's Карточка товара: подарок -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Карточка товара: отзыв -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Карточка товара: отзыв
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/product/product-review.mjml" />
+<!-- end's Карточка товара: отзыв -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Карточка товара: horizontal -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Карточка товара: horizontal
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/product/product-horizontal.mjml" />
+<!-- end's Карточка товара: horizontal -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Промокод -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Промокод
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/promocode/promocode.mjml" />
+<!-- end's Промокод -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Стили для текста -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Стили для текста
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/text/text.mjml" />
+<!-- end's Стили для текста -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Клуб мастеров -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Клуб мастеров
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/app/app.mjml" />
+<!-- end's Клуб мастеров -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- QR-код для оплаты -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            QR-код для оплаты
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/sbp/sbp.mjml" />
+<!-- end's QR-код для оплаты -->
+
+<mj-section mj-class="divider40"></mj-section>
+
+<!-- Черная пятница -->
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Черная пятница письмо 1
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/blackfriday/blackfriday.mjml" />
+<mj-section mj-class="pad--20-15">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Черная пятница письмо 2
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/blackfriday/blackfriday2.mjml" />
+<mj-section mj-class="pad--0-0-20">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="text-20-30  fw--700  ttu  align--center">
+            Черная пятница письмо 3
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-include path="../base/blackfriday/blackfriday3.mjml" />
+<!-- end's Черная пятница -->

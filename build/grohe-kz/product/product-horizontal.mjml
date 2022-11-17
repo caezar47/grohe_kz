@@ -1,0 +1,28 @@
+<mj-wrapper mj-class="product__horizontal">
+    <mj-section mj-class="product__horizontal-inner" >
+        <mj-column mj-class="product__horizontal-column-left" css-class="dib product__horizontal-column-left">
+            <mj-image mj-class="product__horizontal-img"
+                      src="https://cdn.aristos.pw/email_mjml/theme/product-horizontal.jpg"
+                      href="#"/>
+        </mj-column>
+        <mj-column mj-class="product__horizontal-column-right" css-class="dib product__horizontal-column-right">
+            <mj-button mj-class="product__horizontal-title"
+                       href="#">
+                Lorem ipsum, dolor, sit amet consectetur adipisicing elit?
+            </mj-button>
+            <mj-text mj-class="product__horizontal-code">
+                DT20502-QZ
+            </mj-text>
+            <mj-text mj-class="product__horizontal-cost" >
+                4 370 ₽
+            </mj-text>
+            <mj-text mj-class="product__horizontal-label" >
+                Угловая насадка + гибкий зонд
+            </mj-text>
+            <mj-button mj-class="btn product__horizontal-btn "
+                       href="#">
+                Купить
+            </mj-button>
+        </mj-column>
+    </mj-section>
+</mj-wrapper>

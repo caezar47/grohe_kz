@@ -1,0 +1,84 @@
+<mj-section mj-class="product__card-wrapper" css-class="product__card-wrapper">
+    <mj-column mj-class="product__card-column" css-class="dib  product__card-column">
+        <mj-section mj-class="product__card">
+            <mj-column mj-class="product__card-inner">
+                <mj-image mj-class="product__card-img"
+                          src="https://cdn.aristos.pw/email_mjml/theme/product-grid-2.jpg"
+                          href="#"/>
+                <mj-section mj-class="pad--0">
+                    <mj-column mj-class="product__card-desc">
+                        <mj-section mj-class="product__card-label-wrap">
+                            <mj-column mj-class="product__card-label-inner" css-class="dib  product__card-label-inner">
+                                <mj-button mj-class="product__card-label">
+                                    Скидка 50%
+                                </mj-button>
+                            </mj-column>
+                        </mj-section>
+                        <mj-button mj-class="product__card-title"
+                                   href="#" >
+                            Lorem ipsum, dolor, sit amet consectetur adipisicing elit?
+                        </mj-button>
+                        <mj-text mj-class="product__card-cost">
+                            16 590 ₽
+                        </mj-text>
+                        <mj-table mj-class="product__card-cost-table">
+                            <tr>
+                                <td class="product__card-cost">
+                                    16 590 ₽
+                                </td>
+                                <td class="product__card-cost-old">
+                                    32 928 ₽
+                                </td>
+                            </tr>
+                        </mj-table>
+                        <mj-button mj-class="btn  product__card-btn"
+                                   href="#">
+                            Купить
+                        </mj-button>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+    </mj-column>
+    <mj-column mj-class="product__card-column" css-class="dib  product__card-column">
+        <mj-section mj-class="product__card">
+            <mj-column mj-class="product__card-inner">
+                <mj-image mj-class="product__card-img"
+                          src="https://cdn.aristos.pw/email_mjml/theme/product-grid-2.jpg"
+                          href="#"/>
+                <mj-section mj-class="pad--0">
+                    <mj-column mj-class="product__card-desc">
+                        <mj-section mj-class="product__card-label-wrap">
+                            <mj-column mj-class="product__card-label-inner" css-class="dib  product__card-label-inner">
+                                <mj-button mj-class="product__card-label">
+                                    Скидка 50%
+                                </mj-button>
+                            </mj-column>
+                        </mj-section>
+                        <mj-button mj-class="product__card-title"
+                                   href="#" >
+                            Lorem ipsum, dolor sit amet.<br><br>
+                        </mj-button>
+                        <mj-text mj-class="product__card-cost">
+                            16 590 ₽
+                        </mj-text>
+                        <mj-table mj-class="product__card-cost-table">
+                            <tr>
+                                <td class="product__card-cost">
+                                    16 590 ₽
+                                </td>
+                                <td class="product__card-cost-old">
+                                    32 928 ₽
+                                </td>
+                            </tr>
+                        </mj-table>
+                        <mj-button mj-class="btn  product__card-btn"
+                                   href="#">
+                            Купить
+                        </mj-button>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+    </mj-column>
+</mj-section>

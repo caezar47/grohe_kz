@@ -1,0 +1,67 @@
+<mj-style inline="inline">
+    .product__desc{
+        max-width: 410px!important;
+    }
+    .product__cost{
+        color: #000;
+        padding: 0 5px;
+        font-size: 24px!important;
+        line-height: 24px!important;
+        font-weight: 700;
+    }
+    .product__cost-old{
+        color: #9D9D9D;
+        padding: 0 5px;
+        font-size: 20px!important;
+        line-height: 24px!important;
+        font-weight: 400;
+        text-decoration: line-through;
+    }
+    .reviews__header-text{
+        color: #363636;
+    }
+    .product__card-column{
+        max-width: 300px !important;
+    }
+    .product__card-column3{
+        max-width: 200px !important;
+    }
+    .product__card-label-inner{
+        max-width: 100px !important;
+    }
+    .product__card-cost{
+        color: #000;
+        padding: 0 5px;
+        font-size: 25px!important;
+        line-height: 25px!important;
+        font-weight: 700;
+    }
+    .product__card-cost-old{
+        color: #9D9D9D;
+        padding: 0 5px;
+        font-size: 15px!important;
+        line-height: 25px!important;
+        font-weight: 400;
+        text-decoration: line-through;
+    }
+    .product-review__card-column-left{
+        max-width: 240px !important;
+    }
+    .product-review__card-column-right{
+        max-width: 300px !important;
+    }
+    .product-review__card-btn-wrap{
+        max-width: 200px !important;
+    }
+    .product__item-col-left{
+        max-width: 285px !important;
+    }
+    .product__item-col-right{
+        max-width: 286px !important;
+    }
+    .product-group__column {
+        display: inline-block !important;
+        width: 300px !important;
+        max-width: 300px !important;
+    }
+</mj-style>

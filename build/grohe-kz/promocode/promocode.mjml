@@ -1,0 +1,33 @@
+<mj-section mj-class="promocode__block">
+    <mj-column mj-class="pad--0">
+        <mj-section mj-class="pad--0">
+            <mj-column mj-class="pad--0">
+                <mj-text mj-class="promocode__title">
+                    Только для подписчиков рассылки!
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="pad--0">
+            <mj-column mj-class="pad--0  mw-390" css-class="dib mw-390" >
+                <mj-text mj-class="promocode__subtitle">
+                    Дарим вам скидку 5% на товары из подборки и не только по промокоду:
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="pad--0">
+            <mj-column mj-class="pad--0  mw-190" css-class="dib mw-190" >
+                <mj-button mj-class="promocode__code">
+                    topsale
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="pad--0">
+            <mj-column mj-class="pad--0  mw-320" css-class="dib mw-320" >
+                <mj-text mj-class="promocode__footnote">
+                    Промокод активируется в корзине до 31.08.22.<br>
+                    Скидка не распространяется на товары по супер-ценам.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-column>
+</mj-section>

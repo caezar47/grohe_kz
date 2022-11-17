@@ -1,0 +1,6 @@
+<mj-style inline="inline">
+    .bonus__text{
+        color:#949494;
+        font-weight: 700;
+    }
+</mj-style>

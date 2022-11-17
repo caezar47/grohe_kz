@@ -1,0 +1,284 @@
+<!-- header -->
+<mj-include path="header/header_base.style.inline.mjml" />
+<!-- bonus -->
+<mj-include path="bonus/bonus.style.inline.mjml" />
+<!-- product -->
+<mj-include path="product/product.style.inline.mjml" />
+<!-- app -->
+<mj-include path="app/app.style.inline.mjml" />
+<!-- sbp -->
+<mj-include path="sbp/sbp.style.inline.mjml" />
+<!-- promocode -->
+<mj-include path="promocode/promocode.style.inline.mjml" />
+<!-- transactional -->
+<mj-include path="transactional/transactional.style.inline.mjml" />
+<!-- footer -->
+<mj-include path="footer/footer_base.style.inline.mjml" />
+<mj-style inline="inline">
+    .color--black{
+        color: #000;
+    }
+    .color--white{
+        color: #fff;
+    }
+    .color--success {
+        color: #EDC02E;
+    }
+    .fw--700{
+        font-weight: 700;
+    }
+    .tdn{
+        text-decoration: none;
+    }
+    .ttu{
+        text-transform: uppercase;
+    }
+    .tdu{
+        text-decoration: underline;
+    }
+    .dib{
+        width: 100% !important;
+        display: inline-block !important;
+    }
+    .main__divider{
+        max-width: 100px !important;
+    }
+    .mwp-13{
+        max-width: 13% !important;
+    }
+    .mwp-50{
+        max-width: 50% !important;
+    }
+    .mwp-87{
+        max-width: 87% !important;
+    }
+
+    .mw-60{
+        max-width: 60px !important;
+    }
+    .mw-64{
+        max-width: 64px !important;
+    }
+    .mw-70{
+        max-width: 70px !important;
+    }
+    .mw-74{
+        max-width: 74px !important;
+    }
+    .mw-80{
+        max-width: 80px !important;
+    }
+    .mw-90{
+        max-width: 90px !important;
+    }
+    .mw-95{
+        max-width: 95px !important;
+    }
+    .mw-100{
+        max-width: 100px !important;
+    }
+    .mw-105{
+        max-width: 105px !important;
+    }
+    .mw-110{
+        max-width: 110px !important;
+    }
+    .mw-120{
+        max-width: 120px !important;
+    }
+    .mw-130{
+        max-width: 130px !important;
+    }
+    .mw-135{
+        max-width: 135px !important;
+    }
+    .mw-140{
+        max-width: 140px !important;
+    }
+    .mw-145{
+        max-width: 145px !important;
+    }
+    .mw-150{
+        max-width: 150px !important;
+    }
+    .mw-156{
+        max-width: 156px !important;
+    }
+    .mw-170{
+        max-width: 170px !important;
+    }
+    .mw-175{
+        max-width: 175px !important;
+    }
+    .mw-180{
+        max-width: 180px !important;
+    }
+    .mw-190{
+        max-width: 190px !important;
+    }
+    .mw-193{
+        max-width: 193px !important;
+    }
+    .mw-195{
+        max-width: 195px !important;
+    }
+    .mw-200{
+        max-width: 200px !important;
+    }
+    .mw-210{
+        max-width: 210px !important;
+    }
+    .mw-220{
+        max-width: 220px !important;
+    }
+    .mw-225{
+        max-width: 225px !important;
+    }
+    .mw-230{
+        max-width: 230px !important;
+    }
+    .mw-240{
+        max-width: 240px !important;
+    }
+    .mw-250{
+        max-width: 250px !important;
+    }
+    .mw-255{
+        max-width: 255px !important;
+    }
+    .mw-260{
+        max-width: 260px !important;
+    }
+    .mw-270{
+        max-width: 270px !important;
+    }
+    .mw-280{
+        max-width: 280px !important;
+    }
+    .mw-290{
+        max-width: 290px !important;
+    }
+    .mw-295{
+        max-width: 295px !important;
+    }
+    .mw-300{
+        max-width: 300px !important;
+    }
+    .mw-310{
+        max-width: 310px !important;
+    }
+    .mw-320{
+        max-width: 320px !important;
+    }
+    .mw-330{
+        max-width: 330px !important;
+    }
+    .mw-334{
+        max-width: 334px !important;
+    }
+    .mw-340{
+        max-width: 340px !important;
+    }
+    .mw-345{
+        max-width: 345px !important;
+    }
+    .mw-335{
+        max-width: 335px !important;
+    }
+    .mw-350{
+        max-width: 350px!important;
+    }
+    .mw-360{
+        max-width: 360px!important;
+    }
+    .mw-370{
+        max-width: 370px!important;
+    }
+    .mw-380{
+        max-width: 380px !important;
+    }
+    .mw-390{
+        max-width: 390px !important;
+    }
+    .mw-400{
+        max-width: 400px !important;
+    }
+    .mw-410{
+        max-width: 410px !important;
+    }
+    .mw-420{
+        max-width: 420px !important;
+    }
+    .mw-440{
+        max-width: 440px!important;
+    }
+    .mw-450{
+        max-width: 450px!important;
+    }
+    .mw-460{
+        max-width: 460px!important;
+    }
+    .mw-470{
+        max-width: 470px !important;
+    }
+    .mw-475{
+        max-width: 475px !important;
+    }
+    .mw-480{
+        max-width: 480px !important;
+    }
+    .mw-485{
+        max-width: 485px !important;
+    }
+    .mw-500{
+        max-width: 500px !important;
+    }
+    .mw-510{
+        max-width: 510px !important;
+    }
+    .mw-520{
+        max-width: 520px !important;
+    }
+    .mw-530{
+        max-width: 530px !important;
+    }
+    .mw-535{
+        max-width: 535px !important;
+    }
+    .mw-540{
+        max-width: 540px !important;
+    }
+    .mw-550{
+         max-width: 550px !important;
+     }
+    .mw-560{
+         max-width: 560px !important;
+     }
+    .mw-570{
+         max-width: 570px !important;
+     }
+    .mw-600{
+        max-width: 600px !important;
+    }
+    .mw-605{
+        max-width: 605px !important;
+    }
+    .mw-610{
+        max-width: 610px !important;
+    }
+    .mw-615{
+        max-width: 615px !important;
+    }
+    .mw-620{
+        max-width: 620px !important;
+    }
+    .mw-630{
+        max-width: 630px !important;
+    }
+    .mw-640{
+        max-width: 640px !important;
+    }
+    .promo__btn-wrap{
+        max-width: 200px !important;
+    }
+</mj-style>

@@ -1,0 +1,80 @@
+<mj-section mj-class="product__card-wrapper" css-class="product__card-wrapper">
+    <mj-column mj-class="product__card-column3" css-class="dib  product__card-column3">
+        <mj-section mj-class="product__card">
+            <mj-column mj-class="product__card-inner">
+                <mj-image mj-class="product__card-img"
+                          src="https://cdn.aristos.pw/email_mjml/theme/product-grid-3.jpg"
+                          href="#"/>
+                <mj-text mj-class="product__card-title">
+                    Lorem ipsum, dolor, sit amet consectetur adipisicing elit?
+                </mj-text>
+                <mj-text mj-class="product__card-cost-old">
+                    12 990 ₽
+                </mj-text>
+                <mj-text mj-class="product__card-cost">
+                    9 357 ₽
+                </mj-text>
+                <mj-section mj-class="product__card-btn-wrap" >
+                    <mj-column mj-class="product__card-btn-inner" css-class="dib  product__card-btn-inner">
+                        <mj-button mj-class="btn product__card-btn"
+                                   href="https://shop.blackanddecker.ru/sadovaya-tehnika/trimmery/akkumulyatornyy-trimmer-23-sm-18-v-1-5-a-ch-black-decker-st1823-rk.html">
+                            Купить
+                        </mj-button>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+    </mj-column>
+    <mj-column mj-class="product__card-column3" css-class="dib  product__card-column3">
+        <mj-section mj-class="product__card">
+            <mj-column mj-class="product__card-inner">
+                <mj-image mj-class="product__card-img"
+                          src="https://cdn.aristos.pw/email_mjml/theme/product-grid-3.jpg"
+                          href="#"/>
+                <mj-text mj-class="product__card-title">
+                    Lorem ipsum, dolor, sit amet consectetur adipisicing elit?
+                </mj-text>
+                <mj-text mj-class="product__card-cost-old">
+                    12 990 ₽
+                </mj-text>
+                <mj-text mj-class="product__card-cost">
+                    9 357 ₽
+                </mj-text>
+                <mj-section mj-class="product__card-btn-wrap" >
+                    <mj-column mj-class="product__card-btn-inner" css-class="dib  product__card-btn-inner">
+                        <mj-button mj-class="btn product__card-btn"
+                                   href="https://shop.blackanddecker.ru/sadovaya-tehnika/trimmery/akkumulyatornyy-trimmer-23-sm-18-v-1-5-a-ch-black-decker-st1823-rk.html">
+                            Купить
+                        </mj-button>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+    </mj-column>
+    <mj-column mj-class="product__card-column3" css-class="dib  product__card-column3">
+        <mj-section mj-class="product__card">
+            <mj-column mj-class="product__card-inner">
+                <mj-image mj-class="product__card-img"
+                          src="https://cdn.aristos.pw/email_mjml/theme/product-grid-3.jpg"
+                          href="#"/>
+                <mj-text mj-class="product__card-title">
+                    Lorem ipsum, dolor, sit amet consectetur adipisicing elit?
+                </mj-text>
+                <mj-text mj-class="product__card-cost-old">
+                    12 990 ₽
+                </mj-text>
+                <mj-text mj-class="product__card-cost">
+                    9 357 ₽
+                </mj-text>
+                <mj-section mj-class="product__card-btn-wrap" >
+                    <mj-column mj-class="product__card-btn-inner" css-class="dib  product__card-btn-inner">
+                        <mj-button mj-class="btn product__card-btn"
+                                   href="https://shop.blackanddecker.ru/sadovaya-tehnika/trimmery/akkumulyatornyy-trimmer-23-sm-18-v-1-5-a-ch-black-decker-st1823-rk.html">
+                            Купить
+                        </mj-button>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+    </mj-column>
+</mj-section>

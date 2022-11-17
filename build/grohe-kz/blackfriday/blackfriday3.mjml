@@ -1,0 +1,33 @@
+<!-- Основной текст -->
+<mj-section mj-class="blackfriday__content">
+    <mj-column mj-class="pad--0">
+        <mj-image mj-class="img--full"
+                  src="https://stanley.masterclub.store/media/up/stanley/email/2022/ST-4035/main-banner.jpg"
+                  href="https://stanley.masterclub.store/blackfriday2022"
+        />
+        <mj-text mj-class="blackfriday__text">
+            Поздравляем!
+        </mj-text>
+        <mj-text mj-class="blackfriday__subtext">
+            Вы&nbsp;стали обладателем раннего доступа к&nbsp;чёрной&nbsp;пятнице от&nbsp;Schneider Electric! <br>
+            Получите суперскидку&nbsp;15% на&nbsp;весь ассортимент при&nbsp;заказе&nbsp;от&nbsp;10&nbsp;000&nbsp;₽.
+        </mj-text>
+        <mj-text mj-class="blackfriday__prepromocode">
+            по промокоду:
+        </mj-text>
+        <mj-button mj-class="blackfriday__promocode">
+            BFSE2022
+        </mj-button>
+        <mj-button mj-class="btn blackfriday__btn  blackfriday__btn-subpromocode"
+                   href="https://stanley.masterclub.store/blackfriday2022">
+            За покупками
+        </mj-button>
+        <mj-text mj-class="blackfriday__subpromocode">
+            Скидка распространяется на весь<br> ассортимент, кроме серии Merten и ИБП
+        </mj-text>
+        <mj-image mj-class="img--full"
+                  src="https://stanley.masterclub.store/media/up/stanley/email/2022/ST-4035/banner-content.jpg"
+        />
+    </mj-column>
+</mj-section>
+<!-- end's Основной текст -->

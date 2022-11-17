@@ -1,0 +1,180 @@
+<mjml>
+    <mj-head>
+        <mj-breakpoint width="595px" />
+        <mj-attributes>
+            <mj-include path="style.mjml" />
+            <mj-class name="main__content"
+                      full-width="full-width"
+                      background-color="#000"
+            />
+            <mj-class name="main__content-inner"
+                      padding="30px 15px"
+            />
+            <mj-class name="main__title"
+                      color="#EDC02E"
+                      font-size="25px"
+                      line-height="29px"
+                      font-weight="700"
+                      padding="0 0 24px"
+                      align="center"
+            />
+            <mj-class name="main__subtitle"
+                      color="#fff"
+                      font-size="25px"
+                      line-height="26px"
+                      padding="0 0 20px"
+                      align="center"
+            />
+            <mj-class name="main__text"
+                      color="#fff"
+                      font-size="18px"
+                      line-height="26px"
+                      padding="0"
+                      align="center"
+            />
+            <mj-class name="img__basket"
+                      width="225px"
+                      padding="10px 0"
+            />
+            <mj-class name="main__border"
+                      padding="20px 15px"
+                      border="1px solid #fff"
+            />
+            <mj-class name="main__border-text"
+                      color="#fff"
+                      font-size="21px"
+                      line-height="35px"
+                      padding="0"
+                      align="center"
+                      text-transform="uppercase"
+            />
+            <mj-class name="main__border-title"
+                      color="#EDC02E"
+                      font-size="25px"
+                      line-height="35px"
+                      padding="0"
+                      align="center"
+                      text-transform="uppercase"
+            />
+            <mj-class name="main__btn-column"
+                      padding="30px 15px 22.5px"
+            />
+            <mj-class name="main__product"
+                      padding="7.5px"
+                      width="200px"
+            />
+            <mj-class name="main__product-img"
+                      padding="0"
+                      width="185px"
+            />
+            <mj-class name="footer__padding"
+                      full-width="full-width"
+                      background-color="#000"
+            />
+            <mj-class name="footer"
+            />
+        </mj-attributes>
+        <mj-include path="style-inline.mjml" />
+        <mj-style inline="inline">
+            .main__product{
+                max-width: 200px !important;
+            }
+        </mj-style>
+        <mj-preview>preview &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj; &zwnj;</mj-preview>
+        <mj-title>title</mj-title>
+    </mj-head>
+    <mj-body background-color="#fff">
+        <!-- Header -->
+        <mj-include path="header/header_base.mjml" />
+        <!-- end's Header -->
+        <mj-section mj-class="main__content">
+            <mj-column mj-class="pad--0">
+                <mj-image mj-class="img--full"
+                          src="https://shop.grohe.kz/media/wysiwyg/email/HLG-297/main-banner.jpg"
+                          href="https://shop.grohe.kz/blackfriday2022?utm_source=cl-base&utm_medium=email&utm_campaign=bf2022"
+                />
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="main__content">
+            <mj-column mj-class="mw-560 main__content-inner" css-class="dib mw-560">
+                <mj-text mj-class="main__title">
+                    Уважаемый покупатель!
+                </mj-text>
+                <mj-text mj-class="main__text">
+                    Официальный интернет-магазин премиальной сантехники GROHE в&nbsp;Казахстане приглашает вас принять участие в&nbsp;самой грандиозной распродаже года <span class="color--success">«Черная Пятница»!</span>
+                </mj-text>
+                <mj-image mj-class="img__basket"
+                          src="https://shop.grohe.kz/media/wysiwyg/email/HLG-297/basket.png"
+                />
+                <mj-text mj-class="main__subtitle">
+                    Невероятные скидки <span class="color--success">на&nbsp;сотни наиболее популярных товаров!</span>
+                </mj-text>
+                <mj-text mj-class="main__text">
+                    Не&nbsp;упустите шанс приобрести качественную и&nbsp;стильную сантехнику, которая прослужит долгие годы, ежедневно доставляя удовольствие от&nbsp;использования.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="main__content">
+            <mj-column mj-class="main__border">
+                <mj-text mj-class="main__border-text">
+                    Распродажа пройдет в&nbsp;период
+                </mj-text>
+                <mj-text mj-class="main__border-title">
+                    с&nbsp;21&nbsp;по&nbsp;28&nbsp;ноября 2022&nbsp;года.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="main__content">
+            <mj-column mj-class="mw-320 main__btn-column" css-class="dib mw-320">
+                <mj-button mj-class="btn"
+                           href="https://shop.grohe.kz/blackfriday2022?utm_source=cl-base&utm_medium=email&utm_campaign=bf2022">
+                    Перейти на страницу акции
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="main__content">
+            <mj-column mj-class="main__product" css-class="dib  main__product">
+                <mj-image mj-class="main__product-img"
+                          src="https://shop.grohe.kz/media/wysiwyg/email/HLG-297/product-item1.jpg"
+                          href="https://shop.grohe.kz/blackfriday2022?utm_source=cl-base&utm_medium=email&utm_campaign=bf2022"/>
+
+            </mj-column>
+            <mj-column mj-class="main__product" css-class="dib  main__product">
+                <mj-image mj-class="main__product-img"
+                          src="https://shop.grohe.kz/media/wysiwyg/email/HLG-297/product-item2.jpg"
+                          href="https://shop.grohe.kz/blackfriday2022?utm_source=cl-base&utm_medium=email&utm_campaign=bf2022"/>
+
+            </mj-column>
+            <mj-column mj-class="main__product" css-class="dib  main__product">
+                <mj-image mj-class="main__product-img"
+                          src="https://shop.grohe.kz/media/wysiwyg/email/HLG-297/product-item3.jpg"
+                          href="https://shop.grohe.kz/blackfriday2022?utm_source=cl-base&utm_medium=email&utm_campaign=bf2022"/>
+
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="main__content">
+            <mj-column mj-class="main__product" css-class="dib  main__product">
+                <mj-image mj-class="main__product-img"
+                          src="https://shop.grohe.kz/media/wysiwyg/email/HLG-297/product-item4.jpg"
+                          href="https://shop.grohe.kz/blackfriday2022?utm_source=cl-base&utm_medium=email&utm_campaign=bf2022"/>
+
+            </mj-column>
+            <mj-column mj-class="main__product" css-class="dib  main__product">
+                <mj-image mj-class="main__product-img"
+                          src="https://shop.grohe.kz/media/wysiwyg/email/HLG-297/product-item5.jpg"
+                          href="https://shop.grohe.kz/blackfriday2022?utm_source=cl-base&utm_medium=email&utm_campaign=bf2022"/>
+
+            </mj-column>
+            <mj-column mj-class="main__product" css-class="dib  main__product">
+                <mj-image mj-class="main__product-img"
+                          src="https://shop.grohe.kz/media/wysiwyg/email/HLG-297/product-item6.jpg"
+                          href="https://shop.grohe.kz/blackfriday2022?utm_source=cl-base&utm_medium=email&utm_campaign=bf2022"/>
+
+            </mj-column>
+        </mj-section>
+
+        <!-- footer -->
+        <mj-include path="footer/footer_base.mjml" />
+        <!-- end's footer -->
+    </mj-body>
+</mjml>

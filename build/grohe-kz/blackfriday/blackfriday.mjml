@@ -1,0 +1,23 @@
+<!-- Основной текст -->
+<mj-section mj-class="blackfriday__content">
+    <mj-column mj-class="pad--0">
+        <mj-image mj-class="img--full"
+                  src="https://stanley.masterclub.store/media/up/stanley/email/2022/ST-4035/main-banner.jpg"
+                  href="https://stanley.masterclub.store/blackfridaypreview"
+        />
+        <mj-text mj-class="blackfriday__title">
+            Участвуй в&nbsp;главной распродаже года!
+        </mj-text>
+        <mj-text mj-class="blackfriday__subtitle">
+            Узнай первым, когда начало!
+        </mj-text>
+        <mj-button mj-class="btn blackfriday__btn"
+                   href="https://stanley.masterclub.store/blackfridaypreview">
+            Узнать
+        </mj-button>
+        <mj-image mj-class="img--full"
+                  src="https://stanley.masterclub.store/media/up/stanley/email/2022/ST-4035/banner-content.jpg"
+        />
+    </mj-column>
+</mj-section>
+<!-- end's Основной текст -->

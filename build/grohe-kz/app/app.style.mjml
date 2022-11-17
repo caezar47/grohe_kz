@@ -1,0 +1,63 @@
+<mj-class name="app"
+          padding="0"
+          background-color="#000"
+/>
+<mj-class name="app__column-left"
+          padding="26px 26px 24px"
+/>
+<mj-class name="app__column-right"
+          padding="0"
+          vertical-align="middle"
+/>
+<mj-class name="app__divider"
+          border-width="0"
+          padding="0 0 11px"
+/>
+<mj-class name="app__logo"
+          padding="0"
+/>
+<mj-class name="app__logo-left"
+          padding="0"
+          width="33%"
+          vertical-align="middle"
+/>
+<mj-class name="app__logo-right"
+          padding="0 0 0 13px"
+          width="67%"
+          vertical-align="middle"
+/>
+<mj-class name="app__logo-name"
+          padding="0"
+          font-weight="700"
+          color="#fff"
+          font-size="20px"
+          line-height="24px"
+/>
+<mj-class name="app__adv"
+          padding="0"
+/>
+<mj-class name="app__column"
+          padding="0"
+          width="50%"
+          vertical-align="middle"
+/>
+<mj-class name="app__adv-left"
+          padding="0"
+          width="14%"
+          vertical-align="middle"
+/>
+<mj-class name="app__adv-right"
+          padding="0"
+          padding-left="11px"
+          width="86%"
+          vertical-align="middle"
+/>
+<mj-class name="app__adv-name"
+          padding="0"
+          font-size="16px"
+          line-height="20px"
+/>
+<mj-class name="app__qr"
+          padding="0"
+          width="128px"
+/>

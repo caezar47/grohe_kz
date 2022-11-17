@@ -1,0 +1,302 @@
+<mj-wrapper mj-class="product">
+    <mj-section mj-class="product__header">
+        <mj-column mj-class="pad--0">
+            <mj-image mj-class="product__img"
+                      src="https://cdn.aristos.pw/email_mjml/theme/product.jpg"
+                      href="#"
+            />
+            <mj-section mj-class="pad--0">
+                <mj-column mj-class="product__desc" css-class="dib  product__desc">
+                    <mj-text mj-class="product__code">
+                        Артикул: <span class="product__code">23322001</span>
+                    </mj-text>
+                    <mj-button mj-class="product__title"
+                               href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, voluptatibus!
+                    </mj-button>
+
+                    <mj-table mj-class="product__cost-table">
+                        <tr>
+                            <td class="product__cost-old">
+                                32 928 ₽
+                            </td>
+                            <td class="product__cost">
+                                16 590 ₽
+                            </td>
+                        </tr>
+                    </mj-table>
+                    <mj-text mj-class="product__cost-old">
+                        29 990 ₽
+                    </mj-text>
+                    <mj-text mj-class="product__cost">
+                        29 990 ₽
+                    </mj-text>
+                    <mj-button mj-class="product__sale">
+                        Экономия <span class="product__sale">1 470&nbsp;₽</span>
+                    </mj-button>
+
+                    <mj-section mj-class="pad--0">
+                        <mj-column mj-class="pad--0  mw-190" css-class="dib  mw-190">
+                            <mj-button mj-class="product__btn"
+                                       href="#">
+                                Купить
+                            </mj-button>
+                        </mj-column>
+                    </mj-section>
+                </mj-column>
+            </mj-section>
+        </mj-column>
+    </mj-section>
+    <mj-section mj-class="divider10"></mj-section>
+    <mj-section mj-class="product__adv" >
+        <mj-group>
+            <mj-column mj-class="product__adv-column-left">
+                <mj-image mj-class="pad--0"
+                          src="https://dewalt.store/media/up/dewalt/email/theme/marker-check.png"
+                />
+            </mj-column>
+            <mj-column mj-class="product__adv-column-right">
+                <mj-text mj-class="product__adv-name">
+                    dewalt
+                </mj-text>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section mj-class="divider10"></mj-section>
+    <mj-section mj-class="product__adv" >
+        <mj-group>
+            <mj-column mj-class="product__adv-column-left">
+                <mj-image mj-class="pad--0"
+                          src="https://stanley.masterclub.store/media/up/stanley/email/theme/marker-check.png"
+                />
+            </mj-column>
+            <mj-column mj-class="product__adv-column-right">
+                <mj-text mj-class="product__adv-name">
+                    stanley
+                </mj-text>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section mj-class="divider10"></mj-section>
+    <mj-section mj-class="product__adv" >
+        <mj-group>
+            <mj-column mj-class="product__adv-column-left">
+                <mj-image mj-class="pad--0"
+                          src="https://blackanddecker.masterclub.store/media/up/black_dacker/email/theme/marker-check.png"
+                />
+            </mj-column>
+            <mj-column mj-class="product__adv-column-right">
+                <mj-text mj-class="product__adv-name">
+                    blackanddecker
+                </mj-text>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section mj-class="divider10"></mj-section>
+    <mj-section mj-class="product__adv" >
+        <mj-group>
+            <mj-column mj-class="product__adv-column-left">
+                <mj-image mj-class="pad--0"
+                          src="https://shop.hansgrohe.ru/media/up/hansgrohe/email/theme/marker-check.png"
+                />
+            </mj-column>
+            <mj-column mj-class="product__adv-column-right">
+                <mj-text mj-class="product__adv-name">
+                    hansgrohe
+                </mj-text>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section mj-class="divider10"></mj-section>
+    <mj-section mj-class="product__adv" >
+        <mj-group>
+            <mj-column mj-class="product__adv-column-left">
+                <mj-image mj-class="pad--0"
+                          src="https://shop.grohe.ru/media/up/grohe/e-mail/2022/GH-2698/check.png"
+                />
+            </mj-column>
+            <mj-column mj-class="product__adv-column-right">
+                <mj-text mj-class="product__adv-name">
+                    grohe
+                </mj-text>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section mj-class="divider10"></mj-section>
+    <mj-section mj-class="product__adv" >
+        <mj-group>
+            <mj-column mj-class="product__adv-column-left">
+                <mj-image mj-class="pad--0"
+                          src="https://shop.tikkurila.ru/media/up/tikkurila/email/theme/marker-check.png"
+                />
+            </mj-column>
+            <mj-column mj-class="product__adv-column-right">
+                <mj-text mj-class="product__adv-name">
+                    tikkurila
+                </mj-text>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section mj-class="divider10"></mj-section>
+    <mj-wrapper mj-class="reviews">
+        <mj-section mj-class="reviews__header">
+            <mj-group>
+                <mj-column mj-class="reviews__header-left" css-class="dib mwp-13">
+                    <mj-image mj-class="reviews__rate"
+                              src="https://dewalt.store/media/up/dewalt/email/theme/rate-5.png"/>
+                </mj-column>
+                <mj-column mj-class="reviews__header-right" css-class="dib mwp-87">
+                    <mj-text mj-class="reviews__rate-text">
+                        Средняя оценка<br>
+                        на основании <span class="fw--700">5 отзывов</span>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section mj-class="reviews__content">
+            <mj-column padding="0">
+                <mj-text mj-class="reviews__name">Алексей</mj-text>
+                <mj-section mj-class="reviews__advs">
+                    <mj-group>
+                        <mj-column mj-class="reviews__adv" css-class="dib mw-100">
+                            <mj-text mj-class="reviews__adv-title">Функции:</mj-text>
+                            <mj-image mj-class="reviews__adv-img"
+                                      src="https://dewalt.store/media/up/dewalt/email/theme/rate-5-star.png"/>
+                        </mj-column>
+                        <mj-column mj-class="reviews__adv" css-class="dib mw-100">
+                            <mj-text mj-class="reviews__adv-title">Удобство:</mj-text>
+                            <mj-image mj-class="reviews__adv-img"
+                                      src="https://dewalt.store/media/up/dewalt/email/theme/rate-5-star.png"/>
+                        </mj-column>
+                        <mj-column mj-class="reviews__adv" css-class="dib mw-100">
+                            <mj-text mj-class="reviews__adv-title">Дизайн:</mj-text>
+                            <mj-image mj-class="reviews__adv-img"
+                                      src="https://dewalt.store/media/up/dewalt/email/theme/rate-5-star.png"/>
+                        </mj-column>
+                    </mj-group>
+                </mj-section>
+                <mj-text mj-class="reviews__subtitle">Отзыв (28.11.2021):</mj-text>
+                <mj-text mj-class="reviews__text">Хороший топор, в руке лежит удобно, ручка пустотелая, вибрации гасит хорошо.
+                    Пришел заточенный, можно и колбаску порезать (именно порезать, а не порубить)
+                    и ветки с досками порубить. как походный милое дело использовать</mj-text>
+                <mj-text mj-class="reviews__subtitle">Достоинства:</mj-text>
+                <mj-text mj-class="reviews__text">Острый</mj-text>
+                <mj-text mj-class="reviews__subtitle">Недостатки:</mj-text>
+                <mj-text mj-class="reviews__text" padding-bottom="0px">Ничего</mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-wrapper>
+    <mj-section mj-class="divider10"></mj-section>
+    <mj-wrapper mj-class="reviews">
+        <mj-section mj-class="reviews__header">
+            <mj-column mj-class="pad--0  mw-230" css-class="dib mw-230">
+                <mj-text mj-class="reviews__header-text">
+                    Отзывы о товаре: <span class="fw--700  reviews__header-text">4 отзыва</span>
+                </mj-text>
+            </mj-column>
+            <mj-column mj-class="pad--5 mw-80" css-class="dib mw-80"></mj-column>
+            <mj-column mj-class="pad--0 mw-230" css-class="dib mw-230">
+                <mj-section mj-class="pad--0">
+                    <mj-column mj-class="pad--0  mw-135" css-class="dib  mw-135">
+                        <mj-text mj-class="reviews__header-text">Средняя оценка</mj-text>
+                    </mj-column>
+                    <mj-column mj-class="pad--0  mw-95" css-class="dib  mw-95">
+                        <mj-image mj-class="reviews__header-text-img"
+                                  src="https://shop.hansgrohe.ru/media/up/hansgrohe/email/theme/rate-5-star.png"/>
+                    </mj-column>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+        <mj-section mj-class="reviews__content">
+            <mj-column mj-class="pad--0">
+                <mj-image mj-class="reviews__customer"
+                          src="https://shop.hansgrohe.ru/media/up/hansgrohe/email/2022/HANSGROHE-1099/reviews-customer1.jpg" />
+                <mj-text mj-class="reviews__subtitle">
+                    Отзыв:&nbsp;&nbsp;
+                    <span class="reviews__subtitle">
+                        26 дек. 2020 г.
+                    </span>
+                </mj-text>
+                <mj-text mj-class="reviews__text">
+                    Лейка душа очень качественная и хорошо лежит в руке, очень удобно, что концевики на шланге позволяют свободно вращать лейку на 360 градусов, а значит шланг никогда не перекрутится и не не доставит неудобств в обращении. У лейки два режима - широкое рассеивание с мягкой струей и суженный поток с чуть большим напором. Тропический душ с самой широкой 24 см квадратной лейкой доставляет истинное удовольствие принятие душа, эффект дождя великолепный! Лейка тропического душа на шарнире и угол наклона меняется.
+                </mj-text>
+                <mj-text mj-class="reviews__subtitle">Достоинства:</mj-text>
+                <mj-text mj-class="reviews__text">Острый</mj-text>
+                <mj-text mj-class="reviews__subtitle">Недостатки:</mj-text>
+                <mj-text mj-class="reviews__text" padding-bottom="0px">Ничего</mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-wrapper>
+    <mj-section mj-class="divider15"></mj-section>
+    <mj-section mj-class="pad--0">
+        <mj-column mj-class="pad--0  mw-300"  css-class="dib  mw-300">
+            <mj-button mj-class="btn  btn--black"
+                       href="">
+                посмотреть все цепные пилы
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-section mj-class="divider15"></mj-section>
+    <mj-section mj-class="pad--0">
+        <mj-column mj-class="pad--0">
+            <mj-text mj-class="product__kit-heading">
+                Купить комплектом
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section mj-class="product__kit">
+        <mj-column mj-class="product__kit-left mw-180" css-class="dib mw-180">
+            <mj-image mj-class="product__kit-img"
+                      src="https://cdn.aristos.pw/email_mjml/theme/product-kit.jpg"
+                      href="#"
+            />
+        </mj-column>
+        <mj-column mj-class="product__kit-right mw-380" css-class="dib mw-380">
+            <mj-button mj-class="product__kit-title"
+                       href="https://dewalt.store/elektroinstrument/setevoy-instrument/uglovye-shlifmashiny/ushm-950-vt-125-mm-s-regulirovkoy-oborotov-dewalt-dwe4119-ksppp.html">
+                Угловая шлифмашина с&nbsp;регулировкой оборотов DEWALT DWE4119, 950&nbsp;Вт, 125&nbsp;мм
+            </mj-button>
+            <mj-text mj-class="product__kit-cost">
+                7 580 ₽
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section mj-class="pad--0">
+        <mj-column mj-class="pad--0">
+            <mj-image mj-class="product__kit-plus-img"
+                      src="https://dewalt.store/media/up/dewalt/email/theme/plus.png"
+            />
+        </mj-column>
+    </mj-section>
+    <mj-section mj-class="product__kit">
+        <mj-column mj-class="product__kit-left mw-180" css-class="dib mw-180">
+            <mj-image mj-class="product__kit-img"
+                      src="https://cdn.aristos.pw/email_mjml/theme/product-kit.jpg"
+                      href="#"
+            />
+        </mj-column>
+        <mj-column mj-class="product__kit-right mw-380" css-class="dib mw-380">
+            <mj-button mj-class="product__kit-title"
+                       href="https://dewalt.store/elektroinstrument/setevoy-instrument/uglovye-shlifmashiny/ushm-950-vt-125-mm-s-regulirovkoy-oborotov-dewalt-dwe4119-ksppp.html">
+                Угловая шлифмашина с&nbsp;регулировкой оборотов DEWALT DWE4119, 950&nbsp;Вт, 125&nbsp;мм
+            </mj-button>
+            <mj-text mj-class="product__kit-cost">
+                7 580 ₽
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section mj-class="divider25"></mj-section>
+    <mj-section mj-class="pad--0">
+        <mj-column mj-class="pad--0">
+            <mj-text mj-class="product__kit-cost-all">
+                Общая сумма: <span class="product__kit-cost-all">
+                43 280 ₽
+            </span>
+            </mj-text>
+            <mj-button mj-class="btn  product__kit-btn-all"
+                       href="#">
+                В корзину комплектом
+            </mj-button>
+        </mj-column>
+    </mj-section>
+</mj-wrapper>

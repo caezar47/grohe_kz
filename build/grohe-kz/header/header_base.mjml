@@ -1,0 +1,19 @@
+<mj-section mj-class="header__view">
+    <mj-column mj-class="header__view-inner">
+        <mj-text mj-class="header__view-text">
+            Письмо отображается некорректно?
+            <a href="#" target="_blank" class="header__view-text">Откройте его в&nbsp;браузере</a>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section mj-class="header__pre"></mj-section>
+<mj-section mj-class="header">
+    <mj-column mj-class="pad--0">
+        <mj-image mj-class="header__logo"
+                  src="https://shop.grohe.kz/media/wysiwyg/email/theme/logo_base.png"
+                  href="https://shop.grohe.kz/"
+        />
+        <mj-text mj-class="header__title">Официальный интернет&#8209;магазин</mj-text>
+    </mj-column>
+</mj-section>
+<mj-section mj-class="header__pre"></mj-section>

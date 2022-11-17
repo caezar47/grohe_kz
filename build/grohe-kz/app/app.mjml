@@ -1,0 +1,51 @@
+<mj-section mj-class="app" >
+    <mj-column mj-class="app__column-left" css-class="app__column">
+        <mj-section mj-class="app__logo">
+            <mj-group width="100%" >
+                <mj-column mj-class="app__logo-left">
+                    <mj-image
+                            src="https://shop.dewalt.ru/media/up/dewalt/email/theme/club-logo.png"
+                            href="https://shop.dewalt.ru/club-masterov"
+                            padding="0"/>
+                </mj-column>
+                <mj-column mj-class="app__logo-right">
+                    <mj-text mj-class="app__logo-name">
+                        Скачивайте приложение<br>
+                        Клуб Мастеров
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-divider mj-class="divider25" />
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image mj-class="app__qr"
+                          src="https://shop.dewalt.ru/media/up/dewalt/email/theme/club-qr.png"
+                />
+            </mj-column>
+        </mj-section>
+        <mj-divider mj-class="divider25" />
+        <mj-section mj-class="app__adv">
+            <mj-group width="100%" >
+                <mj-column mj-class="app__column">
+                    <mj-image
+                            src="https://shop.dewalt.ru/media/up/dewalt/email/theme/app-google.png"
+                            href="https://play.google.com/store/apps/details?id=ru.clubmasterov.android&hl=ru"
+                            padding="0 4px 0 0"/>
+                </mj-column>
+                <mj-column mj-class="app__column">
+                    <mj-image
+                            src="https://shop.dewalt.ru/media/up/dewalt/email/theme/app-apple.png"
+                            href="https://itunes.apple.com/ru/app/id1570304376?mt=8"
+                            padding="0 0 0 4px"/>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+    </mj-column>
+    <mj-column mj-class="app__column-right" css-class="app__column">
+        <mj-image src="https://shop.dewalt.ru/media/up/dewalt/email/theme/club-app.gif"
+                  padding="0"
+                  width="300px">
+        </mj-image>
+    </mj-column>
+</mj-section>

@@ -1,0 +1,35 @@
+<mj-section mj-class="adv">
+    <mj-group>
+        <mj-column mj-class="adv__column-left">
+            <mj-image mj-class="adv__img"
+                      src="https://rushop.se.com/media/up/schneider/email/SE-1524/adv-item1.png"/>
+        </mj-column>
+        <mj-column mj-class="adv__column-right">
+            <mj-text mj-class="adv__title">
+                Надежная защита от влаги и пыли
+            </mj-text>
+            <mj-text mj-class="adv__name">
+                Розетки и выключатели серии AtlasDesign Profi54 можно устанавливать на улице под козырьками и навесами.
+            </mj-text>
+        </mj-column>
+    </mj-group>
+</mj-section>
+<mj-section mj-class="divider15"></mj-section>
+
+<mj-section mj-class="adv">
+    <mj-group>
+        <mj-column mj-class="adv__column-left">
+            <mj-image mj-class="adv__img"
+                      src="https://rushop.se.com/media/up/schneider/email/SE-1524/adv-item2.png"/>
+        </mj-column>
+        <mj-column mj-class="adv__column-right">
+            <mj-text mj-class="adv__title">
+                Высокопрочный корпус
+            </mj-text>
+            <mj-text mj-class="adv__name">
+                Повышенная степень защиты от внешних механических воздействий IK08 увеличивает срок службы изделий и снижает вероятность поломок в результате вмятин, ударов или падения тяжелых предметов.
+            </mj-text>
+        </mj-column>
+    </mj-group>
+</mj-section>
+<mj-section mj-class="divider15"></mj-section>

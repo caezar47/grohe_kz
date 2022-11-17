@@ -1,0 +1,576 @@
+<mj-class name="product"
+          padding="15px"
+          background-color="#EEEEEE"
+/>
+<mj-class name="product__header"
+          padding="0"
+          background-color="#FFF"
+/>
+<mj-class name="product__img"
+          width="570px"
+          padding="0 0 16px"
+/>
+<mj-class name="product__desc"
+          width="410px"
+          padding="0 5px"
+/>
+<mj-class name="product__code"
+          align="center"
+          padding="0 0 16px"
+          font-size="12px"
+          line-height="14px"
+/>
+<mj-class name="product__title"
+          align="center"
+          font-weight="700"
+          font-size="15px"
+          line-height="20px"
+          padding="0 0 16px"
+          background-color="transparent"
+          border-radius="0"
+          text-transform="none"
+          width="100%"
+          inner-padding="0"
+/>
+<mj-class name="product__cost-table"
+          width="auto"
+          padding="0 0 16px"
+          align="center"
+/>
+<mj-class name="product__cost-old"
+          font-size="20px"
+          line-height="20px"
+          align="center"
+          padding="0 0 16px"
+          text-decoration="line-through"
+/>
+<mj-class name="product__cost"
+          font-weight="700"
+          font-size="24px"
+          line-height="24px"
+          align="center"
+          padding="0 0 16px"
+/>
+<mj-class name="product__sale"
+          color="#fff"
+          background-color="#000"
+          border-radius="15px"
+          font-size="12px"
+          line-height="14px"
+          width="172px"
+          padding="0 0 16px"
+          inner-padding="4px 8px"
+/>
+<mj-class name="product__btn"
+          color="#fff"
+          background-color="#000"
+          border-radius="0px"
+          font-weight="700"
+          font-size="14px"
+          line-height="16px"
+          text-transform="uppercase"
+          width="100%"
+          padding="0 0 30px"
+          inner-padding="15px"
+/>
+
+<mj-class name="product__adv"
+          padding="15px 13px"
+          background-color="#FFFFFF"
+/>
+<mj-class name="product__adv-column-left"
+          padding="0"
+          width="6%"
+          vertical-align="middle"
+/>
+<mj-class name="product__adv-column-right"
+          padding="0"
+          padding-left="15px"
+          width="94%"
+          vertical-align="middle"
+/>
+<mj-class name="product__adv-name"
+          padding="0"
+          font-size="16px"
+          line-height="24px"
+/>
+
+<mj-class name="reviews"
+          padding="15px"
+          background-color="#fff"
+/>
+<mj-class name="reviews__header"
+          padding="0 0 15px"
+          border-bottom="1px dashed #D4CACA"
+/>
+<mj-class name="reviews__header-left"
+          padding="0"
+          width="70px"
+          vertical-align="middle"
+/>
+<mj-class name="reviews__header-right"
+          padding="0 0 0 15px"
+          vertical-align="middle"
+          width="260px"
+/>
+<mj-class name="reviews__header-text"
+          padding="0"
+          font-size="16px"
+          line-height="18px"
+/>
+<mj-class name="reviews__header-text-img"
+          padding="0"
+          width="94px"
+/>
+<mj-class name="reviews__rate"
+          padding="0"
+          width="70px"
+/>
+<mj-class name="reviews__rate-text"
+          padding="0"
+          font-size="18px"
+          line-height="22px"
+/>
+<mj-class name="reviews__customer"
+          padding="0 0 15px"
+          width="190px"
+          align="left"
+/>
+<mj-class name="reviews__content"
+          padding="15px 0 0"
+/>
+<mj-class name="reviews__name"
+          padding="0 0 15px"
+          font-size="15px"
+          line-height="15px"
+/>
+<mj-class name="reviews__advs"
+          padding="0"
+/>
+<mj-class name="reviews__adv"
+          padding="0 24px 15px 0px"
+          width="100px"
+/>
+<mj-class name="reviews__adv-title"
+          padding="0 0 8px"
+          font-size="12px"
+          line-height="12px"
+          color="#515151"
+/>
+<mj-class name="reviews__adv-img"
+          padding="0"
+          width="74px"
+/>
+<mj-class name="reviews__subtitle"
+          padding="0 0 8px"
+          font-size="14px"
+          line-height="14px"
+          color="#262626"
+/>
+<mj-class name="reviews__text"
+          padding="0 0 16px"
+          font-size="12px"
+          line-height="17px"
+          color="#757575"
+/>
+
+<mj-class name="product__kit"
+          padding="5px"
+          background-color="#FFFFFF"
+/>
+<mj-class name="product__kit-heading"
+          padding="10px"
+          font-size="22px"
+          line-height="28px"
+          color="#000"
+          font-weight="700"
+          align="center"
+/>
+<mj-class name="product__kit-left"
+          padding="10px"
+          vertical-align="middle"
+/>
+<mj-class name="product__kit-right"
+          padding="10px"
+          vertical-align="middle"
+/>
+<mj-class name="product__kit-img"
+          width="160px"
+          padding="0"
+/>
+<mj-class name="product__kit-title"
+          padding="0"
+          font-size="16px"
+          line-height="24px"
+          align="left"
+          text-align="left"
+          color="#000"
+          width="100%"
+          background-color="none"
+          border-radius="0px"
+          inner-padding="0"
+/>
+<mj-class name="product__kit-cost"
+          font-weight="700"
+          font-size="22px"
+          line-height="32px"
+          padding="10px 0 0"
+          align="left"
+/>
+<mj-class name="product__kit-plus-img"
+          width="21px"
+          padding="5px"
+/>
+<mj-class name="product__kit-cost-all"
+          font-size="16px"
+          line-height="25px"
+          padding="0 0 10px"
+          align="center"
+/>
+<mj-class name="product__kit-btn-all"
+          width="270px"
+          inner-padding="12px 15px"
+/>
+
+<mj-class name="product__card-wrapper"
+          padding="0"
+/>
+<mj-class name="product__card-column"
+          padding="0 10px"
+          width="300px"
+/>
+<mj-class name="product__card-column3"
+          padding="0"
+          width="200px"
+/>
+<mj-class name="product__card"
+          padding="10px 0"
+          background-color="#FFFFFF"
+/>
+<mj-class name="product__card-inner"
+          padding="15px"
+/>
+<mj-class name="product__card-desc"
+          padding="0"
+/>
+
+<mj-class name="product__card-label-wrap"
+          padding="0"
+          text-align="center"
+/>
+<mj-class name="product__card-label-inner"
+          padding="0"
+/>
+<mj-class name="product__card-label"
+          font-size="15px"
+          line-height="15px"
+          color="#fff"
+          width="100%"
+          background-color="#000"
+          border-radius="0"
+          font-weight="700"
+          padding="0 0 10px"
+          inner-padding="6px 5px"
+/>
+<mj-class name="product__card-img"
+          padding="0 0 10px"
+          width="300px"
+/>
+<mj-class name="product__card-code"
+          padding="0 0 10px"
+          font-size="14px"
+          line-height="14px"
+          color="#000"
+          text-decoration="none"
+          align="center"
+/>
+<mj-class name="product__card-title"
+          font-size="14px"
+          line-height="20px"
+          align="center"
+          background-color="#fff"
+          border-radius="0"
+          font-weight="400"
+          text-transform="none"
+          width="100%"
+          inner-padding="0"
+          padding="0 0 10px"
+/>
+<mj-class name="product__card-subtitle"
+          font-size="14px"
+          line-height="16px"
+          color="#000"
+          align="center"
+          padding="0 0 20px"
+/>s
+<mj-class name="product__card-cost-table"
+          width="auto"
+          padding="0 0 10px"
+          align="center"
+/>
+<mj-class name="product__card-cost-old"
+          font-size="18px"
+          line-height="18px"
+          padding="5px 0 0"
+          color="#505050"
+          align="center"
+          text-decoration="line-through"
+/>
+<mj-class name="product__card-cost"
+          font-size="20px"
+          line-height="24px"
+          font-weight="700"
+          padding="0 0 10px"
+          align="center"
+/>
+<mj-class name="product__card-btn-wrap"
+          padding="0"
+/>
+<mj-class name="product__card-btn-inner"
+          padding="0"
+/>
+<mj-class name="product__card-btn"
+/>
+
+<mj-class name="product__gift-wrapper"
+          padding="0"
+          text-align="left"
+/>
+<mj-class name="product__gift-column"
+          width="25%"
+          padding="0"
+/>
+<mj-class name="product__gift-img"
+          padding="0"
+          width="150px"
+/>
+
+
+<mj-class name="product-review__heading"
+          text-align="left"
+          background-color="#000"
+          color="#fff"
+          inner-padding="30px 20px"
+          padding="0"
+          font-size="17px"
+          line-height="22px"
+          border-radius="0px"
+          text-transform="uppercase"
+          width="100%"
+          font-weight="700"
+/>
+<mj-class name="product-review__wrapper"
+          padding="0 20px 20px"
+          background-color="#D7D7D7"
+/>
+<mj-class name="product-review"
+          padding="0"
+          background-color="#fff"
+/>
+<mj-class name="product-review__inner"
+          padding="0 10px 15px"
+/>
+<mj-class name="product-review__card"
+          padding="0"
+/>
+<mj-class name="product-review__card-column-left"
+          padding="0 20px"
+          width="240px"
+          vertical-align="middle"
+/>
+<mj-class name="product-review__card-column-right"
+          padding="10px 20px"
+          width="300px"
+          vertical-align="middle"
+/>
+<mj-class name="product-review__card-img"
+          padding="0px"
+          width="200px"
+/>
+<mj-class name="product-review__card-cost"
+          padding="0 0 25px"
+          font-size="22px"
+          line-height="25px"
+          font-weight="700"
+          color="#000"
+/>
+<mj-class name="product-review__card-btn-wrap"
+          padding="0"
+          width="200px"
+/>
+<mj-class name="product-review__card-btn"
+          background-color="#000"
+          color="#fff"
+          inner-padding="12px 15px"
+          padding="0"
+          font-size="14px"
+          line-height="16px"
+          border-radius="0px"
+          text-transform="uppercase"
+          width="100%"
+/>
+<mj-class name="product-review__desc"
+          padding="0 20px"
+/>
+<mj-class name="product-review__divider"
+          padding="0"
+          border-bottom="1px solid #D7D7D7"
+/>
+<mj-class name="product-review__content"
+          padding="20px 0 0"
+/>
+<mj-class name="product-review__customer"
+          padding="0 0 16px"
+          font-size="15px"
+          line-height="15px"
+          color="#000"
+/>
+<mj-class name="product-reviews__subtitle"
+          padding="0 0 8px"
+          font-size="14px"
+          line-height="14px"
+          color="#262626"
+/>
+<mj-class name="product-reviews__text"
+          padding="0 0 16px"
+          font-size="12px"
+          line-height="14px"
+          color="#515151"
+/>
+
+<mj-class name="product__horizontal"
+          padding="20px 12.5px"
+          background-color="#FFFFFF"
+          border="2px dashed #000"
+/>
+<mj-class name="product__horizontal-inner"
+          padding="0px"
+/>
+<mj-class name="product__horizontal-column-left"
+          padding="10px 17.5px"
+          width="285px"
+          vertical-align="middle"
+/>
+<mj-class name="product__horizontal-column-right"
+          padding="10px 17.5px"
+          width="286px"
+          vertical-align="middle"
+/>
+<mj-class name="product__horizontal-img"
+          width="240px"
+          padding="0"
+/>
+<mj-class name="product__horizontal-title"
+          padding="0"
+          inner-padding="0"
+          font-size="15px"
+          line-height="18px"
+          font-weight="700"
+          align="left"
+          text-align="left"
+          background-color="transparent"
+          border-radius="0"
+          text-transform="none"
+          width="100%"
+/>
+<mj-class name="product__horizontal-code"
+          padding="12px 0 0"
+          font-size="13px"
+          line-height="15px"
+          color="#9A9A9A"
+          align="left"
+/>
+<mj-class name="product__horizontal-cost"
+          font-weight="700"
+          font-size="22px"
+          line-height="25px"
+          padding="17px 0px 0"
+          align="left"
+/>
+<mj-class name="product__horizontal-label"
+          font-weight="700"
+          font-size="12px"
+          line-height="14px"
+          padding="6px 0 0"
+          color="#7C7C7C"
+          align="left"
+/>
+<mj-class name="product__horizontal-btn"
+          width="200px"
+          align="left"
+          padding-top="16px"
+/>
+
+<mj-class name="product-group__wrapper"
+          padding="0"
+/>
+<mj-class name="product-group__column"
+          padding="0"
+          vertical-align="top"
+/>
+<mj-class name="product-group__banner-wrap"
+          padding="0"
+/>
+<mj-class name="product-group__banner"
+          padding="0"
+/>
+<mj-class name="product-group__list"
+          padding="0"
+          border="1px solid #E7E7E7"
+/>
+<mj-class name="product-group__item"
+          padding="0"
+          border-bottom="1px solid #E7E7E7"
+          background-color="#fff"
+          vertical-align="middle"
+/>
+<mj-class name="product-group__item-left"
+          padding="5px 5px 5px 10px"
+          width="38%"
+          vertical-align="middle"
+/>
+<mj-class name="product-group__item-right"
+          padding="15px 10px 15px 5px"
+          width="62%"
+          vertical-align="middle"
+/>
+<mj-class name="product-group__item-img"
+          padding="0"
+/>
+<mj-class name="product-group__item-desc"
+          width="175px"
+          padding="0"
+/>
+<mj-class name="product-group__item-name"
+          color="#000"
+          padding="0"
+          inner-padding="0"
+          font-size="15px"
+          line-height="20px"
+          font-weight="400"
+          align="left"
+          text-align="left"
+          background-color="transparent"
+          border-radius="0"
+          text-transform="none"
+          width="100%"
+/>
+<mj-class name="product-group__item-cost"
+          font-size="18px"
+          line-height="18px"
+          color="#000"
+          padding="10px 0 0"
+          font-weight="700"
+/>
+<mj-class name="product-group__item-btn"
+          font-weight="700"
+          color="#FFFFFF"
+          background-color="#000"
+          border-radius="0"
+          font-size="14px"
+          line-height="16px"
+          padding="12px 0 0"
+          text-transform="uppercase"
+          inner-padding="12px 15px"
+          width="100%"
+/>

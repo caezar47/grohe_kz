@@ -1,0 +1,40 @@
+<!-- Контакты -->
+<mj-section mj-class="footer__padding"></mj-section>
+<mj-section mj-class="footer__line"></mj-section>
+<mj-section mj-class="footer">
+    <mj-column mj-class="footer__inner">
+        <mj-image mj-class="footer__logo"
+                  src="https://shop.grohe.kz/media/wysiwyg/email/theme/logo_base.png"
+                  href="https://shop.grohe.kz/"
+        />
+        <mj-button mj-class="footer__phone"
+                   href="tel:+77008368520">
+            +7 (700) 836&#8209;85&#8209;20
+        </mj-button>
+        <mj-text mj-class="footer__address">
+            <strong>Алматы</strong>, ЖК&nbsp;Exclusive Residence, ул. Бегалина, 68
+        </mj-text>
+        <mj-text mj-class="footer__address">
+            <strong>Алматы</strong>, пр. Жибек Жолы 135, офис&nbsp;48
+        </mj-text>
+        <mj-text mj-class="footer__address">
+            <strong>Алматы</strong>, ул. Абиша Кекилбайулы, 34, 1&nbsp;этаж
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section mj-class="footer__line"></mj-section>
+<!-- end's Контакты -->
+
+<!-- offer -->
+<mj-section mj-class="footer__offer" >
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="footer__offer-text">
+            Не&nbsp;является публичной офертой. Актуальная информация о&nbsp;стоимости и&nbsp;наличии товара представлена на&nbsp;сайте <a href="https://shop.grohe.kz/" class="footer__offer-text" target="_blank">shop.grohe.kz</a>. Вы&nbsp;получили это письмо, потому что зарегистрированы на&nbsp;сайте <a class="footer__offer-text" href="https://shop.grohe.kz/" target="_blank">официального интернет-магазина GROHE</a>. Если вы&nbsp;не&nbsp;заинтересованы в&nbsp;получении информации о&nbsp;бонусах и&nbsp;скидках для наших постоянных клиентов, пожалуйста, отпишитесь от&nbsp;рассылки, кликнув по&nbsp;ссылке ниже.
+        </mj-text>
+        <mj-button mj-class="footer__offer-unsubscribe"
+                   href="#">
+            Отписаться от рассылки
+        </mj-button>
+    </mj-column>
+</mj-section>
+<!-- end's offer -->

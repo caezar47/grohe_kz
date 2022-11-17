@@ -1,0 +1,223 @@
+<!-- font-weight -->
+<mj-class name="fw--400"
+          font-weight="400"
+/>
+<mj-class name="fw--700"
+          font-weight="700"
+/>
+
+<!-- text-align -->
+<mj-class name="align--left"
+          align="left"
+/>
+<mj-class name="align--center"
+          align="center"
+/>
+<mj-class name="align--right"
+          align="right"
+/>
+
+<!-- text-transform -->
+<mj-class name="ttu"
+          text-transform="uppercase"
+/>
+<mj-class name="ttn"
+          text-transform="none"
+/>
+
+<mj-class name="tal"
+          text-align="left"
+/>
+<mj-class name="tac"
+          text-align="center"
+/>
+<mj-class name="tar"
+          text-align="right"
+/>
+
+<!-- font-size / line-height -->
+<mj-class name="text-12-14"
+          font-size="12px"
+          line-height="14px"
+          padding="0"
+/>
+<mj-class name="text-13-23"
+          font-size="13px"
+          line-height="23px"
+          padding="0"
+/>
+<mj-class name="text-14-16"
+          font-size="14px"
+          line-height="16px"
+          padding="0"
+/>
+<mj-class name="text-14-18"
+          font-size="14px"
+          line-height="18px"
+          padding="0"
+/>
+<mj-class name="text-14-20"
+          font-size="14px"
+          line-height="20px"
+          padding="0"
+/>
+<mj-class name="text-15-20"
+          font-size="15px"
+          line-height="20px"
+          padding="0"
+/>
+<mj-class name="text-15-23"
+          font-size="15px"
+          line-height="23px"
+          padding="0"
+/>
+<mj-class name="text-16-18"
+          font-size="16px"
+          line-height="18px"
+          padding="0"
+/>
+<mj-class name="text-16-20"
+          font-size="16px"
+          line-height="20px"
+          padding="0"
+/>
+<mj-class name="text-16-21"
+          font-size="16px"
+          line-height="21px"
+          padding="0"
+/>
+<mj-class name="text-16-22"
+          font-size="16px"
+          line-height="22px"
+          padding="0"
+/>
+<mj-class name="text-16-23"
+          font-size="16px"
+          line-height="23px"
+          padding="0"
+/>
+<mj-class name="text-16-24"
+          font-size="16px"
+          line-height="24px"
+          padding="0"
+/>
+<mj-class name="text-18-23"
+          font-size="18px"
+          line-height="23px"
+          padding="0"
+/>
+<mj-class name="text-18-24"
+          font-size="18px"
+          line-height="24px"
+          padding="0"
+/>
+<mj-class name="text-18-26"
+          font-size="18px"
+          line-height="26px"
+          padding="0"
+/>
+<mj-class name="text-18-28"
+          font-size="18px"
+          line-height="28px"
+          padding="0"
+/>
+<mj-class name="text-19-30"
+          font-size="19px"
+          line-height="30px"
+          padding="0"
+/>
+<mj-class name="text-20-22"
+          font-size="20px"
+          line-height="22px"
+          padding="0"
+/>
+<mj-class name="text-20-24"
+          font-size="20px"
+          line-height="24px"
+          padding="0"
+/>
+<mj-class name="text-20-26"
+          font-size="20px"
+          line-height="26px"
+          padding="0"
+/>
+<mj-class name="text-20-28"
+          font-size="20px"
+          line-height="28px"
+          padding="0"
+/>
+<mj-class name="text-20-30"
+          font-size="20px"
+          line-height="30px"
+          padding="0"
+/>
+<mj-class name="text-22-25"
+          font-size="22px"
+          line-height="25px"
+          padding="0"
+/>
+<mj-class name="text-22-28"
+          font-size="22px"
+          line-height="28px"
+          padding="0"
+/>
+<mj-class name="text-22-30"
+          font-size="22px"
+          line-height="30px"
+          padding="0"
+/>
+<mj-class name="text-22-32"
+          font-size="22px"
+          line-height="32px"
+          padding="0"
+/>
+<mj-class name="text-23-28"
+          font-size="23px"
+          line-height="28px"
+          padding="0"
+/>
+<mj-class name="text-24-26"
+          font-size="24px"
+          line-height="26px"
+          padding="0"
+/>
+<mj-class name="text-24-28"
+          font-size="24px"
+          line-height="28px"
+          padding="0"
+/>
+<mj-class name="text-24-29"
+          font-size="24px"
+          line-height="29px"
+          padding="0"
+/>
+<mj-class name="text-24-33"
+          font-size="24px"
+          line-height="33px"
+          padding="0"
+/>
+<mj-class name="text-24-34"
+          font-size="24px"
+          line-height="34px"
+          padding="0"
+/>
+<mj-class name="text-24-36"
+          font-size="24px"
+          line-height="36px"
+          padding="0"
+/>
+<mj-class name="text-30-34"
+          font-size="30px"
+          line-height="34px"
+          padding="0"
+/>
+<mj-class name="text-30-36"
+          font-size="30px"
+          line-height="36px"
+          padding="0"
+/>
+<mj-class name="text-75-75"
+          font-size="75px"
+          line-height="75px"
+          padding="0"
+/>

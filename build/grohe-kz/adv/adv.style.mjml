@@ -1,0 +1,22 @@
+<mj-class name="adv"
+          padding="10px 15px"
+/>
+<mj-class name="adv__column-left"
+          padding="0"
+          width="13.5%"
+          vertical-align="middle"
+/>
+<mj-class name="adv__column-right"
+          padding="0"
+          padding-left="15px"
+          width="86.5%"
+          vertical-align="middle"
+/>
+<mj-class name="adv__img"
+          width="70px"
+          padding="0"
+/>
+<mj-class name="adv__title"
+          font-weight="700"
+          padding="0"
+/>

@@ -1,0 +1,15 @@
+<mj-raw>
+    {{IF "(bonus IS_DEFINED)"}}
+    {{IF "(bonus NUMBER_GT '0')"}}
+</mj-raw>
+<mj-section mj-class="bonus">
+    <mj-column mj-class="pad--0">
+        <mj-text mj-class="bonus__text">
+            Бонусов у вас на счете: <span class="bonus__text">[[bonus]]</span>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-raw>
+    {{ENDIF}}
+    {{ENDIF}}
+</mj-raw>

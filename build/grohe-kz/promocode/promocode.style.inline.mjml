@@ -1,0 +1,8 @@
+<mj-style inline="inline">
+    .promocode__coupon-btn-wrap{
+        max-width: 200px !important;
+    }
+    .promo__btn-wrap{
+        max-width: 200px !important;
+    }
+</mj-style>

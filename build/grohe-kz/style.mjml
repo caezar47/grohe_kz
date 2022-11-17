@@ -1,0 +1,348 @@
+<mj-all
+        font-family="Arial, sans-serif"
+        color="#000"
+/>
+
+<mj-class name="color--white"
+          color="#fff"
+/>
+<mj-class name="color--black"
+          color="#000"
+/>
+<mj-class name="bg--black"
+          background-color="#000"
+/>
+
+<mj-class name="pad--0"
+          padding="0"
+/>
+<mj-class name="pad--0-15"
+          padding="0 15px"
+/>
+
+
+<mj-class name="img--full"
+          padding="0"
+          width="600px"
+/>
+
+<mj-class name="main__banner"
+          padding="0"
+/>
+<mj-class name="main__content"
+          padding="0"
+/>
+<mj-class name="main__content-inner"
+          padding="0"
+/>
+<mj-class name="main__icon"
+          padding="0 0 20px"
+          width="100px"
+/>
+<mj-class name="main__divider"
+          border-bottom="2px solid #000"
+          padding="0"
+          width="100px"
+/>
+
+<mj-class name="btn--clearfix"
+          color="transparent"
+          background-color="transparent"
+          border-radius="0px"
+          text-transform="none"
+          font-weight="700"
+          text-align="left"
+          font-size="12px"
+          line-height="12px"
+          width="100%"
+          padding="0"
+          inner-padding="0"
+/>
+
+<!-- width -->
+<mj-class name="mw-60"
+          width="60px"
+/>
+<mj-class name="mw-64"
+          width="64px"
+/>
+<mj-class name="mw-70"
+          width="70px"
+/>
+<mj-class name="mw-80"
+          width="80px"
+/>
+<mj-class name="mw-95"
+          width="95px"
+/>
+<mj-class name="mw-100"
+          width="100px"
+/>
+<mj-class name="mw-105"
+          width="105px"
+/>
+<mj-class name="mw-110"
+          width="110px"
+/>
+<mj-class name="mw-120"
+          width="120px"
+/>
+<mj-class name="mw-130"
+          width="130px"
+/>
+<mj-class name="mw-135"
+          width="135px"
+/>
+<mj-class name="mw-140"
+          width="140px"
+/>
+<mj-class name="mw-145"
+          width="145px"
+/>
+<mj-class name="mw-150"
+          width="150px"
+/>
+<mj-class name="mw-156"
+          width="156px"
+/>
+<mj-class name="mw-170"
+          width="170px"
+/>
+<mj-class name="mw-175"
+          width="175px"
+/>
+<mj-class name="mw-180"
+          width="180px"
+/>
+<mj-class name="mw-190"
+          width="190px"
+/>
+<mj-class name="mw-193"
+          width="193px"
+/>
+<mj-class name="mw-195"
+          width="195px"
+/>
+<mj-class name="mw-200"
+          width="200px"
+/>
+<mj-class name="mw-210"
+          width="210px"
+/>
+<mj-class name="mw-220"
+          width="220px"
+/>
+<mj-class name="mw-225"
+          width="225px"
+/>
+<mj-class name="mw-230"
+          width="230px"
+/>
+<mj-class name="mw-240"
+          width="240px"
+/>
+<mj-class name="mw-250"
+          width="250px"
+/>
+<mj-class name="mw-255"
+          width="255px"
+/>
+<mj-class name="mw-260"
+          width="260px"
+/>
+<mj-class name="mw-270"
+          width="270px"
+/>
+<mj-class name="mw-280"
+          width="280px"
+/>
+<mj-class name="mw-290"
+          width="290px"
+/>
+<mj-class name="mw-295"
+          width="295px"
+/>
+<mj-class name="mw-300"
+          width="300px"
+/>
+<mj-class name="mw-308"
+          width="308px"
+/>
+<mj-class name="mw-310"
+          width="310px"
+/>
+<mj-class name="mw-320"
+          width="320px"
+/>
+<mj-class name="mw-330"
+          width="330px"
+/>
+<mj-class name="mw-334"
+          width="334px"
+/>
+<mj-class name="mw-335"
+          width="335px"
+/>
+<mj-class name="mw-340"
+          width="340px"
+/>
+<mj-class name="mw-345"
+          width="345px"
+/>
+<mj-class name="mw-350"
+          width="350px"
+/>
+<mj-class name="mw-360"
+          width="360px"
+/>
+<mj-class name="mw-370"
+          width="370px"
+/>
+<mj-class name="mw-380"
+          width="380px"
+/>
+<mj-class name="mw-390"
+          width="390px"
+/>
+<mj-class name="mw-400"
+          padding="0"
+          width="400px"
+/>
+<mj-class name="mw-410"
+          padding="0"
+          width="400px"
+/>
+<mj-class name="mw-420"
+          padding="0"
+          width="420px"
+/>
+<mj-class name="mw-440"
+          padding="0"
+          width="440px"
+/>
+<mj-class name="mw-450"
+          padding="0"
+          width="450px"
+/>
+<mj-class name="mw-470"
+          padding="0"
+          width="470px"
+/>
+<mj-class name="mw-475"
+          padding="0"
+          width="475px"
+/>
+<mj-class name="mw-480"
+          padding="0"
+          width="480px"
+/>
+<mj-class name="mw-485"
+          width="485px"
+/>
+<mj-class name="mw-500"
+          width="500px"
+/>
+<mj-class name="mw-510"
+          width="510px"
+/>
+<mj-class name="mw-520"
+          width="520px"
+/>
+<mj-class name="mw-535"
+          padding="0"
+          width="535px"
+/>
+<mj-class name="mw-540"
+          padding="0"
+          width="540px"
+/>
+<mj-class name="mw-550"
+          padding="0"
+          width="550px"
+/>
+<mj-class name="mw-560"
+          padding="0"
+          width="560px"
+/>
+<mj-class name="mw-570"
+          padding="0"
+          width="570px"
+/>
+<mj-class name="mw-640"
+          padding="0"
+          width="600px"
+/>
+<mj-class name="mw-640"
+          padding="0"
+          width="640px"
+/>
+
+<mj-class name="dewalt--color--primary"
+          color="#FEBD17"
+/>
+<mj-class name="dewalt--bg--primary"
+          background-color="#FEBD17"
+/>
+<mj-class name="stanley--color--primary"
+          color="#FBD504"
+/>
+<mj-class name="stanley--bg--primary"
+          background-color="#FBD504"
+/>
+<mj-class name="bd--color--primary"
+          color="#E75220"
+/>
+<mj-class name="bd--bg--primary"
+          background-color="#E75220"
+/>
+<mj-class name="lenox--color--primary"
+          color="#E21836"
+/>
+<mj-class name="lenox--bg--primary"
+          background-color="#E21836"
+/>
+
+<mj-include path="button/button.style.mjml" />
+
+<!-- header -->
+<mj-include path="header/header_base.style.mjml" />
+
+<!-- hello -->
+<mj-include path="hello/hello.style.mjml" />
+
+<!-- banner main -->
+<mj-class name="banner__full"
+          background-color="#000"
+          padding="0"
+          full-width="full-width"
+/>
+
+<!-- promocode -->
+<mj-include path="promocode/promocode.style.mjml" />
+
+<!-- bonus -->
+<mj-include path="bonus/bonus.style.mjml" />
+
+<!-- text -->
+<mj-include path="text/text.style.mjml" />
+
+<!-- product -->
+<mj-include path="product/product.style.mjml" />
+
+<!-- masterclub app-->
+<mj-include path="app/app.style.mjml" />
+
+<!-- sbp -->
+<mj-include path="sbp/sbp.style.mjml" />
+
+<!-- adv -->
+<mj-include path="adv/adv.style.mjml" />
+
+<!-- blackfriday -->
+<mj-include path="blackfriday/blackfriday.style.mjml" />
+
+<!-- transactional -->
+<mj-include path="transactional/transactional.style.mjml" />
+
+<!-- footer -->
+<mj-include path="footer/footer_base.style.mjml" />

@@ -1,0 +1,99 @@
+<mj-section mj-class="product-group__wrapper">
+    <mj-column mj-class="product-group__column" css-class="product-group__column"
+    >
+        <mj-section mj-class="product-group__banner-wrap">
+            <mj-column mj-class="pad--0">
+                <mj-image mj-class="product-group__banner"
+                          src="https://rushop.se.com/media/up/schneider/email/SE-1520/product-item1.jpg"
+                          href="#" />
+            </mj-column>
+        </mj-section>
+    </mj-column>
+    <mj-column mj-class="product-group__column" css-class="product-group__column right"
+    >
+        <mj-section mj-class="product-group__list">
+            <mj-column mj-class="pad--0">
+                <mj-section mj-class="product-group__item">
+                    <mj-group>
+                        <mj-column mj-class="product-group__item-left">
+                            <mj-image mj-class="product-group__item-img"
+                                      src="https://rushop.se.com/media/up/schneider/email/SE-1520/product-item1-1.jpg"
+                                      href="#"
+                            />
+                        </mj-column>
+                        <mj-column mj-class="product-group__item-right">
+                            <mj-section mj-class="product-group__item-desc">
+                                <mj-column mj-class="pad--0">
+                                    <mj-button mj-class="product-group__item-name"
+                                               href="#">
+                                        Автоматический выключатель серии ВА-101 4,5кА 25А DEKraft 11080DEK
+                                    </mj-button>
+                                    <mj-text mj-class="product-group__item-cost">
+                                        526 руб.
+                                    </mj-text>
+                                    <mj-button mj-class="product-group__item-btn"
+                                               href="https://rushop.se.com/katalog-tovarov-1/avtomaty-dekraft/avtomaticheskie-vyklyuchateli/avtomaticheskiy-vyklyuchatel-serii-va-101-4-5ka-25a-dekraft-11080dek.html"
+                                    >Подробнее</mj-button>
+                                </mj-column>
+                            </mj-section>
+                        </mj-column>
+                    </mj-group>
+                </mj-section>
+                <mj-section mj-class="product-group__item">
+                    <mj-group>
+                        <mj-column mj-class="product-group__item-left">
+                            <mj-image mj-class="product-group__item-img"
+                                      src="https://rushop.se.com/media/up/schneider/email/SE-1520/product-item1-2.jpg"
+                                      href="#"
+                            />
+                        </mj-column>
+                        <mj-column mj-class="product-group__item-right">
+                            <mj-section mj-class="product-group__item-desc">
+                                <mj-column mj-class="pad--0">
+                                    <mj-button mj-class="product-group__item-name"
+                                               href="#">
+                                        Автоматический выключатель серии ВА-101 4,5кА 16А DEKraft 11066DEK
+                                    </mj-button>
+                                    <mj-text mj-class="product-group__item-cost">
+                                        392 руб.
+                                    </mj-text>
+                                    <mj-button mj-class="product-group__item-btn"
+                                               href="https://rushop.se.com/katalog-tovarov-1/avtomaty-dekraft/avtomaticheskie-vyklyuchateli/avtomaticheskiy-vyklyuchatel-serii-va-101-4-5ka-16a-dekraft-11066dek.html"
+                                    >
+                                        Подробнее
+                                    </mj-button>
+                                </mj-column>
+                            </mj-section>
+                        </mj-column>
+                    </mj-group>
+                </mj-section>
+                <mj-section mj-class="product-group__item">
+                    <mj-group>
+                        <mj-column mj-class="product-group__item-left">
+                            <mj-image mj-class="product-group__item-img"
+                                      src="https://rushop.se.com/media/up/schneider/email/SE-1520/product-item1-3.jpg"
+                                      href="#"
+                            />
+                        </mj-column>
+                        <mj-column mj-class="product-group__item-right">
+                            <mj-section mj-class="product-group__item-desc">
+                                <mj-column mj-class="pad--0">
+                                    <mj-button mj-class="product-group__item-name"
+                                               href="#">
+                                        Автоматический выключатель серии ВА-101 4,5кА 16А DEKraft 11054DEK
+                                    </mj-button>
+                                    <mj-text mj-class="product-group__item-cost">
+                                        160 руб.
+                                    </mj-text>
+                                    <mj-button mj-class="product-group__item-btn"
+                                               href="#"
+                                    >Подробнее</mj-button>
+                                </mj-column>
+                            </mj-section>
+                        </mj-column>
+                    </mj-group>
+                </mj-section>
+            </mj-column>
+        </mj-section>
+    </mj-column>
+</mj-section>

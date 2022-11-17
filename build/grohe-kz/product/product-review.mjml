@@ -1,0 +1,86 @@
+<mj-section mj-class="pad--0">
+    <mj-column mj-class="pad--0">
+        <mj-button mj-class="product-review__heading"
+                   href="#">
+            Рюкзак для инструмента с&nbsp;колесами FatMax нейлоновый STANLEY 1-79-215, 36×27×46&nbsp;см
+        </mj-button>
+    </mj-column>
+</mj-section>
+<mj-wrapper mj-class="product-review__wrapper">
+    <mj-section mj-class="product-review">
+        <mj-column mj-class="product-review__inner">
+            <mj-section mj-class="product-review__card">
+                <mj-column mj-class="product-review__card-column-left" css-class="dib product-review__card-column-left">
+                    <mj-image mj-class="product-review__card-img"
+                              src="https://cdn.aristos.pw/email_mjml/theme/product-grid-3.jpg"
+                              href="#"/>
+                </mj-column>
+                <mj-column mj-class="product-review__card-column-right" css-class="dib product-review__card-column-right">
+                    <mj-text mj-class="product-review__card-cost" >
+                        11 480 ₽
+                    </mj-text>
+                    <mj-section mj-class="pad--0 tal">
+                        <mj-column mj-class="product-review__card-btn-wrap" css-class="dib product-review__card-btn-wrap">
+                            <mj-button mj-class="product-review__card-btn"
+                                       href="#">
+                                Купить
+                            </mj-button>
+                        </mj-column>
+                    </mj-section>
+                </mj-column>
+            </mj-section>
+            <mj-section mj-class="pad--0">
+                <mj-column mj-class="product-review__desc">
+                    <mj-section mj-class="pad--0">
+                        <mj-column mj-class="product-review__divider"></mj-column>
+                    </mj-section>
+                    <mj-section mj-class="pad--0">
+                        <mj-column mj-class="product-review__content" >
+                            <mj-text mj-class="product-review__customer">
+                                Дмитрий Зуев
+                            </mj-text>
+                            <mj-section mj-class="reviews__advs">
+                                <mj-group>
+                                    <mj-column mj-class="reviews__adv" css-class="dib mw-100">
+                                        <mj-text mj-class="reviews__adv-title">Функции:</mj-text>
+                                        <mj-image mj-class="reviews__adv-img"
+                                                  src="https://stanley.masterclub.store/media/up/stanley/email/theme/rate-5-star.png"/>
+                                    </mj-column>
+                                    <mj-column mj-class="reviews__adv" css-class="dib mw-100">
+                                        <mj-text mj-class="reviews__adv-title">Удобство:</mj-text>
+                                        <mj-image mj-class="reviews__adv-img"
+                                                  src="https://stanley.masterclub.store/media/up/stanley/email/theme/rate-5-star.png"/>
+                                    </mj-column>
+                                    <mj-column mj-class="reviews__adv" css-class="dib  mw-100">
+                                        <mj-text mj-class="reviews__adv-title">Дизайн:</mj-text>
+                                        <mj-image mj-class="reviews__adv-img"
+                                                  src="https://stanley.masterclub.store/media/up/stanley/email/theme/rate-5-star.png"/>
+                                    </mj-column>
+                                </mj-group>
+                            </mj-section>
+                            <mj-text mj-class="product-reviews__subtitle">
+                                Отзыв (22.07.2021):
+                            </mj-text>
+                            <mj-text mj-class="product-reviews__text">
+                                Подходит для пеших, у кого нет машина.
+                            </mj-text>
+                            <mj-text mj-class="product-reviews__subtitle">
+                                Достоинства:
+                            </mj-text>
+                            <mj-text mj-class="product-reviews__text">
+                                Больщой рюкзак, гибридный чемодан)
+                            </mj-text>
+                            <mj-text mj-class="product-reviews__subtitle">
+                                Недостатки:
+                            </mj-text>
+                            <mj-text mj-class="product-reviews__text">
+                                Пока не уточняю.
+                            </mj-text>
+                        </mj-column>
+                    </mj-section>
+                </mj-column>
+            </mj-section>
+
+        </mj-column>
+    </mj-section>
+</mj-wrapper>

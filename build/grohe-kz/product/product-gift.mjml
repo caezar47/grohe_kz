@@ -1,0 +1,24 @@
+<mj-section mj-class="product__gift-wrapper">
+    <mj-group>
+        <mj-column mj-class="product__gift-column">
+            <mj-image mj-class="product__gift-img"
+                      src="https://stanley.masterclub.store/media/up/stanley/email/2022/ST-3927/gift-new-item1.jpg"
+            />
+        </mj-column>
+        <mj-column mj-class="product__gift-column">
+            <mj-image mj-class="product__gift-img"
+                      src="https://stanley.masterclub.store/media/up/stanley/email/2022/ST-3927/gift-new-item2.jpg"
+                      href="#"/>
+        </mj-column>
+        <mj-column mj-class="product__gift-column">
+            <mj-image mj-class="product__gift-img"
+                      src="https://stanley.masterclub.store/media/up/stanley/email/2022/ST-3927/gift-new-item3.jpg"
+                      href="#"/>
+        </mj-column>
+        <mj-column mj-class="product__gift-column">
+            <mj-image mj-class="product__gift-img"
+                      src="https://stanley.masterclub.store/media/up/stanley/email/2022/ST-3927/gift-new-item4.jpg"
+                      href="#"/>
+        </mj-column>
+    </mj-group>
+</mj-section>
